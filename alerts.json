@@ -1,0 +1,2033 @@
+{
+    "database": {
+        "name": "Python Dependency Alert Database",
+        "version": "0.1.0",
+        "updated": "2026-08-16",
+
+        "description": {
+            "fr": "Base de packages Python connus comme dépréciés, archivés, inactifs ou non maintenus.",
+            "en": "Known deprecated, archived, inactive or unmaintained Python packages."
+        },
+
+        "disclaimer": {
+            "fr": "Une alerte ne signifie pas nécessairement qu'un package présente un risque de sécurité. Vérifiez la source associée et les besoins de votre projet.",
+            "en": "An alert does not necessarily mean that a package is insecure. Users should review the linked source and their own project requirements."
+        }
+    },
+
+    "packages": [
+
+        {
+            "name": "sklearn",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le package sklearn sur PyPI est déprécié. Le package réel du projet est scikit-learn.",
+                "en": "The sklearn PyPI package is deprecated. The actual project package is scikit-learn."
+            },
+
+            "replacement": {
+                "fr": "scikit-learn",
+                "en": "scikit-learn"
+            },
+
+            "source": "https://pypi.org/project/sklearn/"
+        },
+
+        {
+            "name": "pycrypto",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "PyCrypto n'est plus maintenu et est considéré comme obsolète par le projet.",
+                "en": "PyCrypto is no longer maintained and is considered obsolete by the project."
+            },
+
+            "replacement": {
+                "fr": "cryptography ou pycryptodome",
+                "en": "cryptography or pycryptodome"
+            },
+
+            "source": "https://www.pycrypto.org/"
+        },
+
+        {
+            "name": "oauth2client",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le projet est déprécié et son équipe principale a réduit son support.",
+                "en": "The project is deprecated and the core team has reduced support."
+            },
+
+            "replacement": {
+                "fr": "google-auth et oauthlib",
+                "en": "google-auth and oauthlib"
+            },
+
+            "source": "https://pypi.org/project/oauth2client/"
+        },
+
+        {
+            "name": "distribute",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Distribute est un fork déprécié de setuptools qui a été réintégré à setuptools.",
+                "en": "Distribute is a deprecated fork of setuptools and was merged back into setuptools."
+            },
+
+            "replacement": {
+                "fr": "setuptools",
+                "en": "setuptools"
+            },
+
+            "source": "https://pypi.org/project/distribute/"
+        },
+
+        {
+            "name": "pytest-runner",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le projet repose sur des fonctionnalités dépréciées de setuptools et ses mainteneurs recommandent de le retirer.",
+                "en": "The project relies on deprecated setuptools features and its maintainers recommend removing it."
+            },
+
+            "replacement": {
+                "fr": "tox, nox ou un autre mécanisme d'amorçage des tests",
+                "en": "tox, nox or another test bootstrap mechanism"
+            },
+
+            "source": "https://pypi.org/project/pytest-runner/"
+        },
+
+        {
+            "name": "pep8",
+            "status": "renamed",
+
+            "reason": {
+                "fr": "Le projet pep8 a été renommé pycodestyle afin d'éviter toute confusion.",
+                "en": "The pep8 project was renamed to pycodestyle to avoid confusion."
+            },
+
+            "replacement": {
+                "fr": "pycodestyle",
+                "en": "pycodestyle"
+            },
+
+            "source": "https://pypi.org/project/pycodestyle/"
+        },
+
+        {
+            "name": "nose",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "Le framework de test nose n'est plus maintenu.",
+                "en": "The nose testing framework is no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "pytest, unittest ou nose-ng selon le projet",
+                "en": "pytest, unittest or nose-ng depending on the project"
+            },
+
+            "source": "https://pypi.org/project/nose/"
+        },
+
+        {
+            "name": "nose-randomly",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "Le mainteneur du package indique explicitement que le projet n'est plus maintenu.",
+                "en": "The package maintainer explicitly states that the project is no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "pytest-randomly",
+                "en": "pytest-randomly"
+            },
+
+            "source": "https://pypi.org/project/nose-randomly/"
+        },
+
+        {
+            "name": "mseedlib",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le projet est déprécié et n'est plus maintenu.",
+                "en": "The project is deprecated and no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "pymseed",
+                "en": "pymseed"
+            },
+
+            "source": "https://pypi.org/project/mseedlib/"
+        },
+
+        {
+            "name": "azure-applicationinsights",
+            "status": "archived",
+
+            "reason": {
+                "fr": "Le projet a été archivé et n'est plus maintenu.",
+                "en": "The project has been archived and is no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "azure-monitor-query",
+                "en": "azure-monitor-query"
+            },
+
+            "source": "https://pypi.org/project/azure-applicationinsights/"
+        },
+
+        {
+            "name": "poetry-version",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le projet est explicitement indiqué comme déprécié.",
+                "en": "The project is explicitly marked as deprecated."
+            },
+
+            "replacement": {
+                "fr": "importlib.metadata",
+                "en": "importlib.metadata"
+            },
+
+            "source": "https://pypi.org/project/poetry-version/"
+        },
+
+        {
+            "name": "poetry-version-plugin",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le projet est déprécié et ses mainteneurs recommandent de migrer vers une autre solution.",
+                "en": "The project is deprecated and its maintainers recommend migrating to another solution."
+            },
+
+            "replacement": {
+                "fr": "uv, PDM, Hatch ou poetry-dynamic-versioning selon le projet",
+                "en": "uv, PDM, Hatch or poetry-dynamic-versioning depending on the project"
+            },
+
+            "source": "https://pypi.org/project/poetry-version-plugin/"
+        },
+
+        {
+            "name": "pywin32-stubs",
+            "status": "archived",
+
+            "reason": {
+                "fr": "Le projet est déprécié, archivé et n'est plus maintenu.",
+                "en": "The project is deprecated, archived and no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "types-pywin32",
+                "en": "types-pywin32"
+            },
+
+            "source": "https://pypi.org/project/pywin32-stubs/"
+        },
+
+        {
+            "name": "datapackage-validate",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le projet est déprécié et conservé à des fins historiques.",
+                "en": "The project is deprecated and retained for historical purposes."
+            },
+
+            "replacement": {
+                "fr": "datapackage",
+                "en": "datapackage"
+            },
+
+            "source": "https://pypi.org/project/datapackage-validate/"
+        },
+
+        {
+            "name": "datapackage-registry",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le projet est déprécié et conservé à des fins historiques.",
+                "en": "The project is deprecated and retained for historical purposes."
+            },
+
+            "replacement": {
+                "fr": "datapackage",
+                "en": "datapackage"
+            },
+
+            "source": "https://pypi.org/project/datapackage-registry/"
+        },
+
+        {
+            "name": "ai-api-client-sdk",
+            "status": "archived",
+
+            "reason": {
+                "fr": "Le package est déprécié, archivé et n'est plus maintenu.",
+                "en": "The package is deprecated, archived and no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "sap-ai-sdk-base",
+                "en": "sap-ai-sdk-base"
+            },
+
+            "source": "https://pypi.org/project/ai-api-client-sdk/"
+        },
+
+        {
+            "name": "agentplug",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le package est déprécié et n'est plus activement maintenu.",
+                "en": "The package is deprecated and no longer actively maintained."
+            },
+
+            "replacement": {
+                "fr": "agenthub-sdk",
+                "en": "agenthub-sdk"
+            },
+
+            "source": "https://pypi.org/project/agentplug/"
+        },
+
+        {
+            "name": "agentplug-hub",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le package est déprécié et n'est plus activement maintenu.",
+                "en": "The package is deprecated and no longer actively maintained."
+            },
+
+            "replacement": {
+                "fr": "agenthub-sdk",
+                "en": "agenthub-sdk"
+            },
+
+            "source": "https://pypi.org/project/agentplug-hub/"
+        },
+
+        {
+            "name": "ghops",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le package est déprécié et n'est plus maintenu.",
+                "en": "The package is deprecated and no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "repoindex",
+                "en": "repoindex"
+            },
+
+            "source": "https://pypi.org/project/ghops/"
+        },
+
+        {
+            "name": "lseg-analytics",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le package est déprécié et n'est plus maintenu.",
+                "en": "The package is deprecated and no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "lseg-analytics-pricing",
+                "en": "lseg-analytics-pricing"
+            },
+
+            "source": "https://pypi.org/project/lseg-analytics/"
+        },
+
+        {
+            "name": "pyJHTDB",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le projet est déprécié et n'est plus maintenu.",
+                "en": "The project is deprecated and no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "giverny",
+                "en": "giverny"
+            },
+
+            "source": "https://pypi.org/project/pyJHTDB/"
+        },
+
+        {
+            "name": "m-eclipses",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le package a été déprécié et renommé.",
+                "en": "The package was deprecated and rebranded."
+            },
+
+            "replacement": {
+                "fr": "solarc-eclipse",
+                "en": "solarc-eclipse"
+            },
+
+            "source": "https://pypi.org/project/m-eclipses/"
+        },
+
+        {
+            "name": "python-cephlibs",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Les anciennes bibliothèques Python Ceph fournies par ce package sont désormais considérées comme obsolètes et le package est explicitement déprécié.",
+                "en": "The old Ceph Python libraries provided by this package are now considered obsolete and the package is explicitly deprecated."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://pypi.org/project/python-cephlibs/"
+        },
+
+        {
+            "name": "neptune-fetcher",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le package Neptune Fetcher est officiellement déprécié et n'est plus activement développé.",
+                "en": "The Neptune Fetcher package is officially deprecated and is no longer actively developed."
+            },
+
+            "replacement": {
+                "fr": "neptune-query",
+                "en": "neptune-query"
+            },
+
+            "source": "https://pypi.org/project/neptune-fetcher/"
+        },
+
+        {
+            "name": "goodmem-client",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le package goodmem-client est officiellement déprécié et n'est plus maintenu. Sa dernière version est annoncée comme définitive, sans nouvelles fonctionnalités ni correctifs.",
+                "en": "The goodmem-client package is officially deprecated and is no longer maintained. Its latest release is declared final, with no further features or bug fixes."
+            },
+
+            "replacement": {
+                "fr": "goodmem",
+                "en": "goodmem"
+            },
+
+            "source": "https://pypi.org/project/goodmem-client/"
+        },
+
+        {
+            "name": "vsscale",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le package vsscale est officiellement déprécié au profit de vsjetpack.",
+                "en": "The vsscale package is officially deprecated in favor of vsjetpack."
+            },
+            "replacement": {
+                "fr": "vsjetpack",
+                "en": "vsjetpack"
+            },
+            "source": "https://pypi.org/project/vsscale/"
+        },
+        {
+            "name": "vsdenoise",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le package vsdenoise est officiellement déprécié au profit de vsjetpack.",
+                "en": "The vsdenoise package is officially deprecated in favor of vsjetpack."
+            },
+            "replacement": {
+                "fr": "vsjetpack",
+                "en": "vsjetpack"
+            },
+            "source": "https://pypi.org/project/vsdenoise/"
+        },
+        {
+            "name": "vsexprtools",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le package vsexprtools est officiellement déprécié au profit de vsjetpack.",
+                "en": "The vsexprtools package is officially deprecated in favor of vsjetpack."
+            },
+            "replacement": {
+                "fr": "vsjetpack",
+                "en": "vsjetpack"
+            },
+            "source": "https://pypi.org/project/vsexprtools/"
+        },
+        {
+            "name": "vskernels",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le package vskernels est officiellement déprécié au profit de vsjetpack.",
+                "en": "The vskernels package is officially deprecated in favor of vsjetpack."
+            },
+            "replacement": {
+                "fr": "vsjetpack",
+                "en": "vsjetpack"
+            },
+            "source": "https://pypi.org/project/vskernels/"
+        },
+        {
+            "name": "vsdeband",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le package vsdeband est officiellement déprécié au profit de vsjetpack.",
+                "en": "The vsdeband package is officially deprecated in favor of vsjetpack."
+            },
+            "replacement": {
+                "fr": "vsjetpack",
+                "en": "vsjetpack"
+            },
+            "source": "https://pypi.org/project/vsdeband/"
+        },
+        {
+            "name": "vsdehalo",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le package vsdehalo est officiellement déprécié au profit de vsjetpack.",
+                "en": "The vsdehalo package is officially deprecated in favor of vsjetpack."
+            },
+            "replacement": {
+                "fr": "vsjetpack",
+                "en": "vsjetpack"
+            },
+            "source": "https://pypi.org/project/vsdehalo/"
+        },
+        {
+            "name": "vstools",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le package vstools est officiellement déprécié au profit de vsjetpack.",
+                "en": "The vstools package is officially deprecated in favor of vsjetpack."
+            },
+            "replacement": {
+                "fr": "vsjetpack",
+                "en": "vsjetpack"
+            },
+            "source": "https://pypi.org/project/vstools/"
+        },
+        {
+            "name": "vsaa",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le package vsaa est officiellement déprécié au profit de vsjetpack.",
+                "en": "The vsaa package is officially deprecated in favor of vsjetpack."
+            },
+            "replacement": {
+                "fr": "vsjetpack",
+                "en": "vsjetpack"
+            },
+            "source": "https://pypi.org/project/vsaa/"
+        },
+
+        {
+            "name": "datacommons",
+            "status": "deprecated",
+            "reason": {
+                "fr": "La bibliothèque Data Commons Python est officiellement dépréciée, n'est plus maintenue et n'est plus supportée.",
+                "en": "The Data Commons Python library is officially deprecated, no longer maintained and no longer supported."
+            },
+            "replacement": {
+                "fr": "datacommons-client",
+                "en": "datacommons-client"
+            },
+            "source": "https://pypi.org/project/datacommons/"
+        },
+        {
+            "name": "datacommons-pandas",
+            "status": "deprecated",
+            "reason": {
+                "fr": "La bibliothèque Data Commons Pandas est officiellement dépréciée et n'est plus maintenue.",
+                "en": "The Data Commons Pandas library is officially deprecated and is no longer maintained."
+            },
+            "replacement": {
+                "fr": "datacommons-client",
+                "en": "datacommons-client"
+            },
+            "source": "https://pypi.org/project/datacommons-pandas/"
+        },
+        {
+            "name": "napari-plugin-engine",
+            "status": "deprecated",
+            "reason": {
+                "fr": "La première génération du moteur de plugins napari est officiellement dépréciée au profit de npe2.",
+                "en": "The first-generation napari plugin engine is officially deprecated in favor of npe2."
+            },
+            "replacement": {
+                "fr": "npe2",
+                "en": "npe2"
+            },
+            "source": "https://pypi.org/project/napari-plugin-engine/"
+        },
+        {
+            "name": "ta-lib-everywhere",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le package est désormais inactif et déprécié. Il ne sert plus que de package intermédiaire vers la distribution officielle TA-Lib.",
+                "en": "The package is now inactive and deprecated. It only remains as a wrapper around the official TA-Lib distribution."
+            },
+            "replacement": {
+                "fr": "TA-Lib",
+                "en": "TA-Lib"
+            },
+            "source": "https://pypi.org/project/ta-lib-everywhere/"
+        },
+
+        {
+            "name": "setuptools-markdown",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le projet setuptools-markdown est officiellement déprécié, les fonctionnalités correspondantes étant désormais disponibles directement dans setuptools et PyPI.",
+                "en": "The setuptools-markdown project is officially deprecated, as the corresponding functionality is now available directly in setuptools and PyPI."
+            },
+            "replacement": {
+                "fr": "Fonctionnalités intégrées de setuptools et PyPI",
+                "en": "Built-in setuptools and PyPI functionality"
+            },
+            "source": "https://pypi.org/project/setuptools-markdown/"
+        },
+        {
+            "name": "llama-index-finetuning",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Le package llama-index-finetuning est officiellement déprécié et n'est plus maintenu. Il ne recevra plus de mises à jour ni de correctifs.",
+                "en": "The llama-index-finetuning package is officially deprecated and no longer maintained. It will not receive further updates or bug fixes."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/llama-index-finetuning/"
+        },
+        {
+            "name": "ipfabric-diagrams",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package ipfabric-diagrams est déprécié, archivé et a été fusionné dans le package principal ipfabric.",
+                "en": "The ipfabric-diagrams package is deprecated, archived, and has been merged into the main ipfabric package."
+            },
+            "replacement": {
+                "fr": "ipfabric",
+                "en": "ipfabric"
+            },
+            "source": "https://pypi.org/project/ipfabric-diagrams/"
+        },
+        {
+            "name": "fx-crash-sig",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le projet fx-crash-sig est officiellement déprécié depuis octobre 2024.",
+                "en": "The fx-crash-sig project has been officially deprecated since October 2024."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/fx-crash-sig/"
+        },
+        {
+            "name": "workbench-bridges",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Le package workbench-bridges est déprécié et n'est plus maintenu, toutes ses fonctionnalités ayant été intégrées au package principal workbench.",
+                "en": "The workbench-bridges package is deprecated and no longer maintained, with all functionality merged into the main workbench package."
+            },
+            "replacement": {
+                "fr": "workbench",
+                "en": "workbench"
+            },
+            "source": "https://pypi.org/project/workbench-bridges/"
+        },
+        {
+            "name": "apify-shared",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package apify-shared n'est plus maintenu, aucune nouvelle version ni correctif ne sera publié et son dépôt a été archivé.",
+                "en": "The apify-shared package is no longer maintained, no further releases or fixes will be published, and its repository has been archived."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/apify-shared/"
+        },
+        {
+            "name": "poetryup",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Le package poetryup est déprécié et n'est plus maintenu, le projet ayant migré vers poetry-plugin-up.",
+                "en": "The poetryup package is deprecated and no longer maintained, with the project moved to poetry-plugin-up."
+            },
+            "replacement": {
+                "fr": "poetry-plugin-up",
+                "en": "poetry-plugin-up"
+            },
+            "source": "https://pypi.org/project/poetryup/"
+        },
+        {
+            "name": "azure-cognitiveservices-vision-contentmoderator",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le package Azure Content Moderator est officiellement déprécié et n'est plus maintenu depuis novembre 2024.",
+                "en": "The Azure Content Moderator package is officially deprecated and has no longer been maintained since November 2024."
+            },
+            "replacement": {
+                "fr": "azure-ai-contentsafety",
+                "en": "azure-ai-contentsafety"
+            },
+            "source": "https://pypi.org/project/azure-cognitiveservices-vision-contentmoderator/"
+        },
+        {
+            "name": "dask-lightgbm",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Le projet dask-lightgbm est déprécié et n'est plus maintenu, son code ayant été intégré directement à LightGBM.",
+                "en": "The dask-lightgbm project is deprecated and no longer maintained, with its code migrated directly into LightGBM."
+            },
+            "replacement": {
+                "fr": "lightgbm",
+                "en": "lightgbm"
+            },
+            "source": "https://pypi.org/project/dask-lightgbm/"
+        },
+        {
+            "name": "llama-index-llms-text-generation-inference",
+            "status": "deprecated",
+            "reason": {
+                "fr": "L'intégration Text Generation Inference de LlamaIndex est dépréciée, le SDK sous-jacent n'étant plus maintenu.",
+                "en": "The LlamaIndex Text Generation Inference integration is deprecated because the underlying SDK is no longer maintained."
+            },
+            "replacement": {
+                "fr": "llama-index-llms-huggingface-api",
+                "en": "llama-index-llms-huggingface-api"
+            },
+            "source": "https://pypi.org/project/llama-index-llms-text-generation-inference/"
+        },
+        {
+            "name": "galileo-observe",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package galileo-observe est déprécié et archivé. Les mainteneurs indiquent qu'aucune nouvelle version n'est prévue.",
+                "en": "The galileo-observe package is deprecated and archived. Its maintainers state that no new releases are expected."
+            },
+            "replacement": {
+                "fr": "galileo",
+                "en": "galileo"
+            },
+            "source": "https://pypi.org/project/galileo-observe/"
+        },
+        {
+            "name": "retworkx",
+            "status": "renamed",
+            "reason": {
+                "fr": "retworkx est l'ancien nom déprécié de rustworkx et ne recevra plus de mises à jour.",
+                "en": "retworkx is the deprecated former package name for rustworkx and will no longer receive updates."
+            },
+            "replacement": {
+                "fr": "rustworkx",
+                "en": "rustworkx"
+            },
+            "source": "https://pypi.org/project/retworkx/"
+        },
+
+        {
+            "name": "pysnmp-lextudio",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le package pysnmp-lextudio est officiellement déprécié et n'est plus maintenu. Le projet demande de revenir au package pysnmp.",
+                "en": "The pysnmp-lextudio package is officially deprecated and is no longer maintained. The project recommends migrating back to pysnmp."
+            },
+
+            "replacement": {
+                "fr": "pysnmp",
+                "en": "pysnmp"
+            },
+
+            "source": "https://pypi.org/project/pysnmp-lextudio/"
+        },
+        {
+            "name": "synq-ai",
+            "status": "renamed",
+
+            "reason": {
+                "fr": "Le package synq-ai est déprécié et a été renommé synqed. Il ne recevra plus de mises à jour.",
+                "en": "The synq-ai package is deprecated and has been renamed to synqed. It will no longer receive updates."
+            },
+
+            "replacement": {
+                "fr": "synqed",
+                "en": "synqed"
+            },
+
+            "source": "https://pypi.org/project/synq-ai/"
+        },
+        {
+            "name": "arcade-ai",
+            "status": "renamed",
+
+            "reason": {
+                "fr": "Le package arcade-ai est officiellement déprécié et a été renommé arcade-mcp.",
+                "en": "The arcade-ai package is officially deprecated and has been renamed to arcade-mcp."
+            },
+
+            "replacement": {
+                "fr": "arcade-mcp",
+                "en": "arcade-mcp"
+            },
+
+            "source": "https://pypi.org/project/arcade-ai/"
+        },
+        {
+            "name": "immich",
+            "status": "renamed",
+
+            "reason": {
+                "fr": "Le package immich est déprécié après le renommage du projet en immichpy. Les anciennes versions ont été retirées au profit du nouveau nom.",
+                "en": "The immich package is deprecated following the project's rename to immichpy. Previous releases were withdrawn in favor of the new package name."
+            },
+
+            "replacement": {
+                "fr": "immichpy",
+                "en": "immichpy"
+            },
+
+            "source": "https://pypi.org/project/immich/"
+        },
+        {
+            "name": "uk-company-number",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "Le package uk-company-number a été abandonné et n'est plus maintenu depuis avril 2026. Aucun nouveau correctif, support ou mise à jour n'est prévu.",
+                "en": "The uk-company-number package was discontinued and has been unmaintained since April 2026. No further updates, bug fixes, or support will be provided."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://pypi.org/project/uk-company-number/"
+        },
+        {
+            "name": "absurd",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "Le package absurd est officiellement déprécié et n'est plus maintenu. Son auteur recommande d'envisager d'autres solutions de gestion de workflows.",
+                "en": "The absurd package is officially deprecated and is no longer maintained. Its author recommends considering alternative workflow management solutions."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://pypi.org/project/absurd/"
+        },
+        {
+            "name": "discord-disnake",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le package discord-disnake est officiellement déprécié et n'est plus maintenu. Il servait de couche de compatibilité et le projet recommande désormais d'utiliser directement disnake.",
+                "en": "The discord-disnake package is officially deprecated and is no longer maintained. It was a compatibility shim and the project now recommends using disnake directly."
+            },
+
+            "replacement": {
+                "fr": "disnake",
+                "en": "disnake"
+            },
+
+            "source": "https://pypi.org/project/discord-disnake/"
+        },
+        {
+            "name": "picovoicedemo",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "Le package picovoicedemo est officiellement déprécié et ne sera plus maintenu.",
+                "en": "The picovoicedemo package is officially deprecated and will no longer be maintained."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://pypi.org/project/picovoicedemo/"
+        },
+
+        {
+            "name": "rsa",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet Python-RSA a été officiellement archivé par son mainteneur et aucune nouvelle version n'est attendue.",
+                "en": "The Python-RSA project has been officially archived by its maintainer and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/rsa/"
+        },
+        {
+            "name": "ossindex-lib",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet ossindex-lib a été archivé en mai 2026 et ne recevra plus de mises à jour ni de maintenance.",
+                "en": "The ossindex-lib project was archived in May 2026 and will receive no further updates or maintenance."
+            },
+            "replacement": {
+                "fr": "Clients API Sonatype Guide selon les besoins",
+                "en": "Sonatype Guide API clients depending on the use case"
+            },
+            "source": "https://pypi.org/project/ossindex-lib/"
+        },
+        {
+            "name": "akoma2md",
+            "status": "renamed",
+            "reason": {
+                "fr": "Le package akoma2md est officiellement déprécié et a été renommé normattiva2md.",
+                "en": "The akoma2md package is officially deprecated and has been renamed to normattiva2md."
+            },
+            "replacement": {
+                "fr": "normattiva2md",
+                "en": "normattiva2md"
+            },
+            "source": "https://pypi.org/project/akoma2md/"
+        },
+        {
+            "name": "project-nebula",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le projet Nebula est officiellement déprécié et cette version ne sera plus maintenue.",
+                "en": "The Nebula project is officially deprecated and this version will no longer be maintained."
+            },
+            "replacement": {
+                "fr": "AltAPI",
+                "en": "AltAPI"
+            },
+            "source": "https://pypi.org/project/project-nebula/"
+        },
+        {
+            "name": "POP-guotai",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package POP-guotai est déprécié, marqué inactif et archivé. Le projet demande de migrer vers pypop.",
+                "en": "The POP-guotai package is deprecated, marked inactive and archived. The project recommends migrating to pypop."
+            },
+            "replacement": {
+                "fr": "pypop",
+                "en": "pypop"
+            },
+            "source": "https://pypi.org/project/POP-guotai/"
+        },
+        {
+            "name": "monero-python",
+            "status": "renamed",
+            "reason": {
+                "fr": "L'ancien package monero-python a été remplacé par monero. Le package actuel est conservé vide afin d'éviter la réutilisation malveillante de l'ancien nom.",
+                "en": "The old monero-python package was replaced by monero. The current package is kept empty to prevent malicious reuse of the former name."
+            },
+            "replacement": {
+                "fr": "monero",
+                "en": "monero"
+            },
+            "source": "https://pypi.org/project/monero-python/"
+        },
+        {
+            "name": "python-imagesearch-drov0",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le package python-imagesearch-drov0 est officiellement déprécié au profit de python-imagesearch.",
+                "en": "The python-imagesearch-drov0 package is officially deprecated in favor of python-imagesearch."
+            },
+            "replacement": {
+                "fr": "python-imagesearch",
+                "en": "python-imagesearch"
+            },
+            "source": "https://pypi.org/project/python-imagesearch-drov0/"
+        },
+        {
+            "name": "headerexposer",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet HeaderExposer a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The HeaderExposer project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/headerexposer/"
+        },
+        {
+            "name": "castorapi",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet castorapi a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The castorapi project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/castorapi/"
+        },
+        {
+            "name": "transmission-unlinked",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet transmission-unlinked a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The transmission-unlinked project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/transmission-unlinked/"
+        },
+
+        {
+            "name": "PythonCoordinates",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet PythonCoordinates a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The PythonCoordinates project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/PythonCoordinates/"
+        },
+        {
+            "name": "velarium",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet velarium a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The velarium project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/velarium/"
+        },
+        {
+            "name": "CrawlerCodePythonTools-WebBot",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet CrawlerCodePythonTools-WebBot a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The CrawlerCodePythonTools-WebBot project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/CrawlerCodePythonTools-WebBot/"
+        },
+        {
+            "name": "CrawlerCodePythonTools",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet CrawlerCodePythonTools a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The CrawlerCodePythonTools project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/CrawlerCodePythonTools/"
+        },
+        {
+            "name": "pymeasurable-objects",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet pymeasurable-objects a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The pymeasurable-objects project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/pymeasurable-objects/"
+        },
+        {
+            "name": "velotype",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet velotype a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The velotype project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/velotype/"
+        },
+        {
+            "name": "granitus",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet granitus a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The granitus project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/granitus/"
+        },
+        {
+            "name": "pybatts-mathematics",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet pybatts-mathematics a été officiellement archivé sur PyPI.",
+                "en": "The pybatts-mathematics project has been officially archived on PyPI."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/pybatts-mathematics/"
+        },
+        {
+            "name": "pycoordinate-base",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet pycoordinate-base a été officiellement archivé sur PyPI.",
+                "en": "The pycoordinate-base project has been officially archived on PyPI."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/pycoordinate-base/"
+        },
+        {
+            "name": "pyGeospatial",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet pyGeospatial a été officiellement archivé sur PyPI.",
+                "en": "The pyGeospatial project has been officially archived on PyPI."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/pyGeospatial/"
+        },
+
+        {
+            "name": "pipelantic",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet pipelantic a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The pipelantic project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/pipelantic/"
+        },
+        {
+            "name": "pipelantic-sql",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet pipelantic-sql a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The pipelantic-sql project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/pipelantic-sql/"
+        },
+        {
+            "name": "pipelantic-polars",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet pipelantic-polars a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The pipelantic-polars project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/pipelantic-polars/"
+        },
+        {
+            "name": "pipelantic-pandas",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet pipelantic-pandas a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The pipelantic-pandas project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/pipelantic-pandas/"
+        },
+        {
+            "name": "typra",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet typra a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The typra project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/typra/"
+        },
+        {
+            "name": "planframe",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet planframe a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The planframe project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/planframe/"
+        },
+        {
+            "name": "planframe-pandas",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet planframe-pandas a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The planframe-pandas project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/planframe-pandas/"
+        },
+        {
+            "name": "planframe-polars",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet planframe-polars a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The planframe-polars project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/planframe-polars/"
+        },
+        {
+            "name": "planframe-sparkless",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet planframe-sparkless a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The planframe-sparkless project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/planframe-sparkless/"
+        },
+        {
+            "name": "viperis",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet viperis a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The viperis project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/viperis/"
+        },
+        {
+            "name": "velocus",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet velocus a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The velocus project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/velocus/"
+        },
+        {
+            "name": "morphra",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet morphra a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The morphra project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/morphra/"
+        },
+        {
+            "name": "stubber",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet stubber a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The stubber project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/stubber/"
+        },
+        {
+            "name": "pytest-rxdist",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet pytest-rxdist a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The pytest-rxdist project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/pytest-rxdist/"
+        },
+        {
+            "name": "robin-sparkless",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet robin-sparkless a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The robin-sparkless project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/robin-sparkless/"
+        },
+        {
+            "name": "robin-pkg",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet robin-pkg a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The robin-pkg project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/robin-pkg/"
+        },
+        {
+            "name": "sparkless-testing",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet sparkless-testing a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The sparkless-testing project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/sparkless-testing/"
+        },
+        {
+            "name": "mock-spark",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet mock-spark a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The mock-spark project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/mock-spark/"
+        },
+        {
+            "name": "aiocsv-utils",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet aiocsv-utils a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The aiocsv-utils project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/aiocsv-utils/"
+        },
+        {
+            "name": "fullmetal-utils",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet fullmetal-utils a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The fullmetal-utils project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/fullmetal-utils/"
+        },
+
+        {
+            "name": "rail-score",
+            "status": "renamed",
+            "reason": {
+                "fr": "Le package rail-score est déprécié et archivé après son renommage. Le développement, les correctifs et les nouvelles fonctionnalités continuent sous rail-score-sdk.",
+                "en": "The rail-score package is deprecated and archived following its rename. Development, bug fixes and new features continue under rail-score-sdk."
+            },
+            "replacement": {
+                "fr": "rail-score-sdk",
+                "en": "rail-score-sdk"
+            },
+            "source": "https://pypi.org/project/rail-score/"
+        },
+        {
+            "name": "pysteer-adaptation",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet pysteer-adaptation a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The pysteer-adaptation project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/pysteer-adaptation/"
+        },
+        {
+            "name": "labMTsimple",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet labMTsimple a été archivé et son mainteneur recommande désormais d'utiliser le package sentidict.",
+                "en": "The labMTsimple project has been archived and its maintainer now recommends using the sentidict package."
+            },
+            "replacement": {
+                "fr": "sentidict",
+                "en": "sentidict"
+            },
+            "source": "https://pypi.org/project/labMTsimple/"
+        },
+        {
+            "name": "weights-bias-haystack",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet weights-bias-haystack a été archivé et déplacé vers un nouveau package nommé weave-haystack.",
+                "en": "The weights-bias-haystack project has been archived and moved to a new package named weave-haystack."
+            },
+            "replacement": {
+                "fr": "weave-haystack",
+                "en": "weave-haystack"
+            },
+            "source": "https://pypi.org/project/weights-bias-haystack/"
+        },
+        {
+            "name": "tdl",
+            "status": "archived",
+            "reason": {
+                "fr": "L'ancien package tdl a été archivé et le projet a été déplacé vers le package tcod.",
+                "en": "The old tdl package has been archived and the project has moved to the tcod package."
+            },
+            "replacement": {
+                "fr": "tcod",
+                "en": "tcod"
+            },
+            "source": "https://pypi.org/project/tdl/"
+        },
+        {
+            "name": "mondobrain",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Le package mondobrain n'est plus maintenu. Les anciennes versions ont été retirées et le projet recommande d'utiliser datawhys.",
+                "en": "The mondobrain package is no longer maintained. Previous releases were withdrawn and the project recommends using datawhys."
+            },
+            "replacement": {
+                "fr": "datawhys",
+                "en": "datawhys"
+            },
+            "source": "https://pypi.org/project/mondobrain/"
+        },
+
+        {
+            "name": "gsheetsdb",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le package gsheetsdb est officiellement déprécié. Son mainteneur recommande d'utiliser shillelagh, présenté comme un remplacement compatible.",
+                "en": "The gsheetsdb package is officially deprecated. Its maintainer recommends using shillelagh as a drop-in replacement."
+            },
+            "replacement": {
+                "fr": "shillelagh",
+                "en": "shillelagh"
+            },
+            "source": "https://pypi.org/project/gsheetsdb/"
+        },
+        {
+            "name": "readline",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le package readline est officiellement déprécié et obsolète pour les versions modernes de Python. Le projet recommande gnureadline.",
+                "en": "The readline package is officially deprecated and outdated for modern Python versions. The project recommends gnureadline."
+            },
+            "replacement": {
+                "fr": "gnureadline",
+                "en": "gnureadline"
+            },
+            "source": "https://pypi.org/project/readline/"
+        },
+        {
+            "name": "debabelizer",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Le package debabelizer est officiellement déprécié et n'est plus maintenu. Les implémentations Python et Rust sont également indiquées comme non prêtes pour la production.",
+                "en": "The debabelizer package is officially deprecated and is no longer maintained. Its Python and Rust implementations are also described as not production-ready."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/debabelizer/"
+        },
+        {
+            "name": "clangir",
+            "status": "renamed",
+            "reason": {
+                "fr": "Le package clangir a été archivé et renommé headerkit. Le mainteneur demande d'utiliser le nouveau package.",
+                "en": "The clangir package has been archived and renamed to headerkit. The maintainer recommends using the new package."
+            },
+            "replacement": {
+                "fr": "headerkit",
+                "en": "headerkit"
+            },
+            "source": "https://pypi.org/project/clangir/"
+        },
+        {
+            "name": "llm-claude-3",
+            "status": "renamed",
+            "reason": {
+                "fr": "Le package llm-claude-3 a été archivé et renommé llm-anthropic. Aucune nouvelle version de l'ancien package n'est attendue.",
+                "en": "The llm-claude-3 package has been archived and renamed to llm-anthropic. No new releases of the old package are expected."
+            },
+            "replacement": {
+                "fr": "llm-anthropic",
+                "en": "llm-anthropic"
+            },
+            "source": "https://pypi.org/project/llm-claude-3/"
+        },
+        {
+            "name": "flexpass",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet flexpass a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The flexpass project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/flexpass/"
+        },
+
+        {
+            "name": "bleach",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Bleach n'est plus maintenu depuis juin 2026. Le projet indique qu'aucune nouvelle version ne sera publiée, y compris pour les problèmes de sécurité.",
+                "en": "Bleach is no longer maintained as of June 2026. The project states that there will be no future releases, including for security issues."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/bleach/"
+        },
+        {
+            "name": "garth",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Le projet Garth est officiellement déprécié et n'est plus maintenu. Son mainteneur indique que la dernière publication est définitive.",
+                "en": "Garth is officially deprecated and no longer maintained. Its maintainer states that the latest release is final."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/garth/"
+        },
+        {
+            "name": "neura-library",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package neura-library a été archivé et n'est plus maintenu. Le projet a été remplacé par plusieurs packages modulaires neuralib2.",
+                "en": "The neura-library package has been archived and is no longer maintained. The project has been replaced by modular neuralib2 packages."
+            },
+            "replacement": {
+                "fr": "neuralib-atlas, neuralib-imaging, neuralib-parser, neuralib-metric ou neuralib-utils selon le besoin",
+                "en": "neuralib-atlas, neuralib-imaging, neuralib-parser, neuralib-metric or neuralib-utils depending on the use case"
+            },
+            "source": "https://pypi.org/project/neura-library/"
+        },
+        {
+            "name": "pycea",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet pycea est archivé et n'est plus maintenu. Il a été remplacé par le package officiel NASA CEA.",
+                "en": "The pycea project is archived and no longer maintained. It has been superseded by the official NASA CEA package."
+            },
+            "replacement": {
+                "fr": "nasa/cea",
+                "en": "nasa/cea"
+            },
+            "source": "https://pypi.org/project/pycea/"
+        },
+        {
+            "name": "mvent",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet mvent a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The mvent project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/mvent/"
+        },
+        {
+            "name": "python-openid",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet python-openid a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The python-openid project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/python-openid/"
+        },
+        {
+            "name": "python-qbo",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet python-qbo a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The python-qbo project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/python-qbo/"
+        },
+        {
+            "name": "pydatavolley",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet pydatavolley a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The pydatavolley project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/pydatavolley/"
+        },
+        {
+            "name": "z3c.datagenerator",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet z3c.datagenerator a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The z3c.datagenerator project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/z3c.datagenerator/"
+        },
+
+        {
+            "name": "pvoctopus",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package pvoctopus est déprécié, n'est plus maintenu et a été officiellement archivé par ses mainteneurs.",
+                "en": "The pvoctopus package is deprecated, no longer maintained, and has been officially archived by its maintainers."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/pvoctopus/"
+        },
+        {
+            "name": "pvoctopusdemo",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package pvoctopusdemo est déprécié, n'est plus maintenu et a été officiellement archivé.",
+                "en": "The pvoctopusdemo package is deprecated, no longer maintained, and has been officially archived."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/pvoctopusdemo/"
+        },
+        {
+            "name": "pvrespeakerdemo",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package pvrespeakerdemo est déprécié, n'est plus maintenu et a été officiellement archivé.",
+                "en": "The pvrespeakerdemo package is deprecated, no longer maintained, and has been officially archived."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/pvrespeakerdemo/"
+        },
+        {
+            "name": "ppnrespeakerdemo",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package ppnrespeakerdemo est déprécié, n'est plus maintenu et a été officiellement archivé.",
+                "en": "The ppnrespeakerdemo package is deprecated, no longer maintained, and has been officially archived."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/ppnrespeakerdemo/"
+        },
+        {
+            "name": "catalogkit",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet catalogkit a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The catalogkit project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/catalogkit/"
+        },
+        {
+            "name": "catrxneng",
+            "status": "archived",
+            "reason": {
+                "fr": "Le projet catrxneng a été officiellement archivé par ses mainteneurs et aucune nouvelle version n'est attendue.",
+                "en": "The catrxneng project has been officially archived by its maintainers and no new releases are expected."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/catrxneng/"
+        },
+        {
+            "name": "project-guides",
+            "status": "renamed",
+            "reason": {
+                "fr": "Le package project-guides est déprécié et archivé après son renommage en project-guide. L'ancien package ne recevra plus de mises à jour.",
+                "en": "The project-guides package is deprecated and archived after being renamed to project-guide. The old package will no longer receive updates."
+            },
+            "replacement": {
+                "fr": "project-guide",
+                "en": "project-guide"
+            },
+            "source": "https://pypi.org/project/project-guides/"
+        },
+
+        {
+            "name": "bbcli",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "La version Python de bbcli est officiellement dépréciée et n'est plus maintenue. Le projet continue désormais avec une nouvelle implémentation en Rust.",
+                "en": "The Python version of bbcli is officially deprecated and is no longer maintained. The project now continues with a new Rust implementation."
+            },
+            "replacement": {
+                "fr": "bbc-news-cli, version Rust",
+                "en": "bbc-news-cli, Rust version"
+            },
+            "source": "https://pypi.org/project/bbcli/"
+        },
+        {
+            "name": "iflow-mcp-mcp-tinybird",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Ce package est officiellement déprécié et n'est plus maintenu. Son auteur recommande de migrer vers l'implémentation officielle Tinybird MCP Server.",
+                "en": "This package is officially deprecated and is no longer maintained. Its author recommends migrating to the official Tinybird MCP Server implementation."
+            },
+            "replacement": {
+                "fr": "Tinybird MCP Server officiel",
+                "en": "Official Tinybird MCP Server"
+            },
+            "source": "https://pypi.org/project/iflow-mcp-mcp-tinybird/"
+        },
+        {
+            "name": "zephyrion",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Le projet Zephyrion est officiellement déprécié et n'est plus maintenu. Son auteur recommande de migrer vers Quokka pour l'automatisation de navigateur.",
+                "en": "The Zephyrion project is officially deprecated and is no longer maintained. Its author recommends migrating to Quokka for browser automation."
+            },
+            "replacement": {
+                "fr": "Quokka",
+                "en": "Quokka"
+            },
+            "source": "https://pypi.org/project/zephyrion/"
+        },
+        {
+            "name": "ask-human-now",
+            "status": "renamed",
+            "reason": {
+                "fr": "Le package ask-human-now n'est plus développé sous cet ancien nom. Le projet a été renommé ask-human et les nouvelles installations doivent utiliser le nouveau package.",
+                "en": "The ask-human-now package is no longer developed under its former name. The project has been renamed to ask-human and new installations should use the new package."
+            },
+            "replacement": {
+                "fr": "ask-human",
+                "en": "ask-human"
+            },
+            "source": "https://pypi.org/project/ask-human-now/"
+        },
+
+        {
+            "name": "transformation-algebra",
+            "status": "renamed",
+            "reason": {
+                "fr": "Le package transformation-algebra est déprécié après le renommage du projet en transforge.",
+                "en": "The transformation-algebra package is deprecated after the project was renamed to transforge."
+            },
+            "replacement": {
+                "fr": "transforge",
+                "en": "transforge"
+            },
+            "source": "https://pypi.org/project/transformation-algebra/"
+        },
+        {
+            "name": "cmip-ref-metrics-esmvaltool",
+            "status": "renamed",
+            "reason": {
+                "fr": "Le package cmip-ref-metrics-esmvaltool est déprécié, n'est plus maintenu et a été renommé climate-ref-esmvaltool.",
+                "en": "The cmip-ref-metrics-esmvaltool package is deprecated, no longer maintained, and has been renamed to climate-ref-esmvaltool."
+            },
+            "replacement": {
+                "fr": "climate-ref-esmvaltool",
+                "en": "climate-ref-esmvaltool"
+            },
+            "source": "https://pypi.org/project/cmip-ref-metrics-esmvaltool/"
+        },
+        {
+            "name": "cmip-ref-metrics-ilamb",
+            "status": "renamed",
+            "reason": {
+                "fr": "Le package cmip-ref-metrics-ilamb est déprécié, n'est plus maintenu et a été renommé climate-ref-ilamb.",
+                "en": "The cmip-ref-metrics-ilamb package is deprecated, no longer maintained, and has been renamed to climate-ref-ilamb."
+            },
+            "replacement": {
+                "fr": "climate-ref-ilamb",
+                "en": "climate-ref-ilamb"
+            },
+            "source": "https://pypi.org/project/cmip-ref-metrics-ilamb/"
+        },
+
+        {
+            "name": "azure-cognitiveservices-language-spellcheck",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package Microsoft Azure Spell Check est déprécié et archivé. Microsoft indique qu'il n'est plus maintenu depuis septembre 2024.",
+                "en": "The Microsoft Azure Spell Check package is deprecated and archived. Microsoft states that it has no longer been maintained since September 2024."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/azure-cognitiveservices-language-spellcheck/"
+        },
+        {
+            "name": "azure-cognitiveservices-vision-customvision",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package Azure Custom Vision est officiellement déprécié et archivé. Microsoft a arrêté sa maintenance en novembre 2024.",
+                "en": "The Azure Custom Vision package is officially deprecated and archived. Microsoft ended maintenance in November 2024."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/azure-cognitiveservices-vision-customvision/"
+        },
+        {
+            "name": "azure-iot-modelsrepository",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package Azure IoT Models Repository est officiellement déprécié et archivé. Il n'est plus maintenu depuis février 2024.",
+                "en": "The Azure IoT Models Repository package is officially deprecated and archived. It has no longer been maintained since February 2024."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/azure-iot-modelsrepository/"
+        },
+        {
+            "name": "azure-mgmt-appplatform",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le package Azure Spring Apps Management est officiellement déprécié et n'est plus maintenu depuis mars 2025.",
+                "en": "The Azure Spring Apps Management package is officially deprecated and has no longer been maintained since March 2025."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/azure-mgmt-appplatform/"
+        },
+        {
+            "name": "azure-cognitiveservices-vision-computervision",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package Azure Computer Vision est officiellement déprécié et archivé. Microsoft recommande de migrer vers azure-ai-vision-imageanalysis.",
+                "en": "The Azure Computer Vision package is officially deprecated and archived. Microsoft recommends migrating to azure-ai-vision-imageanalysis."
+            },
+            "replacement": {
+                "fr": "azure-ai-vision-imageanalysis",
+                "en": "azure-ai-vision-imageanalysis"
+            },
+            "source": "https://pypi.org/project/azure-cognitiveservices-vision-computervision/"
+        },
+        {
+            "name": "passage-identity",
+            "status": "archived",
+            "reason": {
+                "fr": "Le SDK Python Passage est officiellement déprécié, archivé et n'est plus maintenu depuis janvier 2026.",
+                "en": "The Passage Python SDK is officially deprecated, archived, and has no longer been maintained since January 2026."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/passage-identity/"
+        },
+        {
+            "name": "dd-azure-worker-extension",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package dd-azure-worker-extension est officiellement déprécié, archivé et n'est plus maintenu. Le projet recommande datadog-serverless-compat.",
+                "en": "The dd-azure-worker-extension package is officially deprecated, archived, and no longer maintained. The project recommends datadog-serverless-compat."
+            },
+            "replacement": {
+                "fr": "datadog-serverless-compat",
+                "en": "datadog-serverless-compat"
+            },
+            "source": "https://pypi.org/project/dd-azure-worker-extension/"
+        },
+        {
+            "name": "django-form-error-reporting",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Le package django-form-error-reporting est officiellement déprécié et n'est plus maintenu, notamment à la suite de l'abandon de Universal Analytics.",
+                "en": "The django-form-error-reporting package is officially deprecated and is no longer maintained, notably following the retirement of Universal Analytics."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://pypi.org/project/django-form-error-reporting/"
+        },
+
+        {
+            "name": "azure-ai-generative",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package azure-ai-generative est officiellement déprécié, archivé et ne sera plus maintenu.",
+                "en": "The azure-ai-generative package is officially deprecated, archived, and will no longer be maintained."
+            },
+            "replacement": {
+                "fr": "Azure AI Evaluation",
+                "en": "Azure AI Evaluation"
+            },
+            "source": "https://pypi.org/project/azure-ai-generative/"
+        },
+        {
+            "name": "azure-synapse",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package azure-synapse est officiellement déprécié, archivé et n'est plus maintenu.",
+                "en": "The azure-synapse package is officially deprecated, archived, and is no longer maintained."
+            },
+            "replacement": {
+                "fr": "Packages Azure Synapse spécifiques au service utilisé",
+                "en": "Service-specific Azure Synapse packages"
+            },
+            "source": "https://pypi.org/project/azure-synapse/"
+        },
+        {
+            "name": "azure-loganalytics",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package azure-loganalytics est archivé et n'est plus maintenu. Microsoft recommande d'utiliser azure-monitor-query.",
+                "en": "The azure-loganalytics package is archived and no longer maintained. Microsoft recommends using azure-monitor-query."
+            },
+            "replacement": {
+                "fr": "azure-monitor-query",
+                "en": "azure-monitor-query"
+            },
+            "source": "https://pypi.org/project/azure-loganalytics/"
+        },
+
+        {
+            "name": "azure-media-analytics-edge",
+            "status": "archived",
+            "reason": {
+                "fr": "Le package azure-media-analytics-edge est officiellement archivé et n'est plus maintenu.",
+                "en": "The azure-media-analytics-edge package is officially archived and is no longer maintained."
+            },
+            "replacement": {
+                "fr": "azure-media-videoanalyzer-edge",
+                "en": "azure-media-videoanalyzer-edge"
+            },
+            "source": "https://pypi.org/project/azure-media-analytics-edge/"
+        }
+
+    ]
+}

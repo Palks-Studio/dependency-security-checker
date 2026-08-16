@@ -1,0 +1,2125 @@
+{
+    "database": {
+        "name": "VS Code Extension Alert Database",
+        "version": "0.1.0",
+        "updated": "2026-08-16",
+
+        "description": {
+            "fr": "Base d'extensions VS Code connues comme dépréciées, archivées, remplacées ou non maintenues.",
+            "en": "Database of VS Code extensions known to be deprecated, archived, replaced or unmaintained."
+        },
+
+        "disclaimer": {
+            "fr": "Une alerte ne signifie pas nécessairement qu'une extension présente un risque de sécurité. Vérifiez la source et les besoins de votre environnement avant toute modification.",
+            "en": "An alert does not necessarily mean that an extension presents a security risk. Review the source and your environment requirements before making changes."
+        }
+    },
+
+    "extensions": [
+
+        {
+            "id": "damirka.move-ide",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension est officiellement dépréciée.",
+                "en": "The extension is officially deprecated."
+            },
+
+            "replacement": {
+                "fr": "move.move-analyzer",
+                "en": "move.move-analyzer"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=damirka.move-ide"
+        },
+
+        {
+            "id": "jpruliere.env-autocomplete",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension est officiellement dépréciée et son auteur recommande une autre extension.",
+                "en": "The extension is officially deprecated and its author recommends another extension."
+            },
+
+            "replacement": {
+                "fr": "maxcutlyp.dotenv-autocomplete",
+                "en": "maxcutlyp.dotenv-autocomplete"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=jpruliere.env-autocomplete"
+        },
+
+        {
+            "id": "redhat.vscode-wsdl2rest",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension WSDL to Camel Rest DSL est officiellement dépréciée.",
+                "en": "The WSDL to Camel Rest DSL extension is officially deprecated."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=redhat.vscode-wsdl2rest"
+        },
+
+        {
+            "id": "Toradex.torizon-early-access",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension est dépréciée et ne reçoit plus que des correctifs critiques.",
+                "en": "The extension is deprecated and only receives critical bug fixes."
+            },
+
+            "replacement": {
+                "fr": "Torizon IDE Extension - ApolloX",
+                "en": "Torizon IDE Extension - ApolloX"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=Toradex.torizon-early-access"
+        },
+
+        {
+            "id": "MarioStudio.folder4index",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension est dépréciée et n'est plus maintenue.",
+                "en": "The extension is deprecated and no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "Index File Manager",
+                "en": "Index File Manager"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=MarioStudio.folder4index"
+        },
+
+        {
+            "id": "asklokesh.loki-mode",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension VS Code n'est plus maintenue, le projet continue sous forme d'outil CLI.",
+                "en": "The VS Code extension is no longer maintained, the project continues as a CLI tool."
+            },
+
+            "replacement": {
+                "fr": "Loki Mode CLI",
+                "en": "Loki Mode CLI"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=asklokesh.loki-mode"
+        },
+
+        {
+            "id": "Azevedo-Software.claude-config-manager",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension est explicitement indiquée comme dépréciée et non maintenue.",
+                "en": "The extension is explicitly marked as deprecated and no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=Azevedo-Software.claude-config-manager"
+        },
+
+        {
+            "id": "asdine.cue",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette extension CUE est dépréciée au profit de l'extension officielle.",
+                "en": "This CUE extension is deprecated in favor of the official extension."
+            },
+
+            "replacement": {
+                "fr": "Extension CUE officielle",
+                "en": "Official CUE extension"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=asdine.cue"
+        },
+
+        {
+            "id": "PictElm.pico8code",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'auteur indique explicitement que l'extension n'est plus maintenue.",
+                "en": "The author explicitly states that the extension is no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=PictElm.pico8code"
+        },
+
+        {
+            "id": "aikoven.slice",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette extension non officielle est dépréciée au profit de l'extension officielle.",
+                "en": "This unofficial extension is deprecated in favor of the official extension."
+            },
+
+            "replacement": {
+                "fr": "Extension Slice officielle",
+                "en": "Official Slice extension"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=aikoven.slice"
+        },
+
+        {
+            "id": "cedros-development.winnetoujs-vscode-framework",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "Cette version de l'extension est dépréciée et n'est plus maintenue pour les nouvelles versions de WinnetouJs.",
+                "en": "This version of the extension is deprecated and no longer maintained for newer WinnetouJs versions."
+            },
+
+            "replacement": {
+                "fr": "Nouvelle extension WinnetouJs",
+                "en": "New WinnetouJs extension"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=cedros-development.winnetoujs-vscode-framework"
+        },
+
+        {
+            "id": "rainlei.superpower-copilot",
+            "status": "renamed",
+
+            "reason": {
+                "fr": "Superpower Copilot a été remplacé par BitFrog Copilot et l'ancienne extension n'est plus maintenue.",
+                "en": "Superpower Copilot was replaced by BitFrog Copilot and the old extension is no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "BitFrog Copilot",
+                "en": "BitFrog Copilot"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=rainlei.superpower-copilot"
+        },
+
+        {
+            "id": "prasadbobby.vscode-typosmooth",
+            "status": "archived",
+
+            "reason": {
+                "fr": "Le projet est déprécié et archivé, sa fonction principale est désormais intégrée à VS Code.",
+                "en": "The project is deprecated and archived, and its primary feature is now built into VS Code."
+            },
+
+            "replacement": {
+                "fr": "Option intégrée editor.cursorSmoothCaretAnimation",
+                "en": "Built-in editor.cursorSmoothCaretAnimation setting"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=prasadbobby.vscode-typosmooth"
+        },
+
+        {
+            "id": "coalaura.vs-fivem",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "Le projet n'est plus maintenu et ne recevra plus de nouvelles fonctionnalités ni de correctifs.",
+                "en": "The project is no longer maintained and will receive no new features, fixes or improvements."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=coalaura.vs-fivem"
+        },
+
+        {
+            "id": "ms-vscode.copilot-mermaid-diagram",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension n'est plus maintenue car la prise en charge des diagrammes Mermaid est désormais intégrée à VS Code.",
+                "en": "The extension is no longer maintained because Mermaid diagram support is now built into VS Code."
+            },
+
+            "replacement": {
+                "fr": "Fonctionnalité intégrée à VS Code",
+                "en": "Built-in VS Code functionality"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.copilot-mermaid-diagram"
+        },
+
+        {
+            "id": "GoTodo.gotodo",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette ancienne extension n'est plus maintenue et a été remplacée par la nouvelle extension officielle Taqiro.",
+                "en": "This old extension is no longer maintained and has been replaced by the new official Taqiro extension."
+            },
+
+            "replacement": {
+                "fr": "taqiro.taqiro",
+                "en": "taqiro.taqiro"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=GoTodo.gotodo"
+        },
+
+        {
+            "id": "PinnacleLabs.taqueria",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette extension Taqueria n'est plus maintenue par Pinnacle Labs et a été remplacée par la version maintenue par l'équipe Tezos Taqueria.",
+                "en": "This Taqueria extension is no longer maintained by Pinnacle Labs and has been replaced by the version maintained by the Tezos Taqueria team."
+            },
+
+            "replacement": {
+                "fr": "Extension officielle Tezos Taqueria",
+                "en": "Official Tezos Taqueria extension"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=PinnacleLabs.taqueria"
+        },
+
+        {
+            "id": "bitwisecook.tcl",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension est dépréciée et n'est plus maintenue.",
+                "en": "The extension is deprecated and no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "tcl-lsp",
+                "en": "tcl-lsp"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=bitwisecook.tcl"
+        },
+
+        {
+            "id": "jaguarfi.aplus-tools",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension pilote est dépréciée au profit de l'extension officielle maintenue par l'équipe EDIT.",
+                "en": "The pilot extension is deprecated in favor of the official extension maintained by the EDIT team."
+            },
+
+            "replacement": {
+                "fr": "apluslms.aplus-tools-official",
+                "en": "apluslms.aplus-tools-official"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=jaguarfi.aplus-tools"
+        },
+
+        {
+            "id": "evangelos-ch.condor-submit-file",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension est explicitement dépréciée et non maintenue.",
+                "en": "The extension is explicitly deprecated and unmaintained."
+            },
+
+            "replacement": {
+                "fr": "Extension HTCondor officielle",
+                "en": "Official HTCondor extension"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=evangelos-ch.condor-submit-file"
+        },
+
+        {
+            "id": "abusaidm.html-snippets",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "La fonctionnalité de cette extension a été absorbée par le support HTML intégré à VS Code.",
+                "en": "The functionality of this extension has been absorbed by VS Code's built-in HTML support."
+            },
+
+            "replacement": {
+                "fr": "Support HTML intégré à VS Code",
+                "en": "Built-in VS Code HTML support"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets"
+        },
+
+        {
+            "id": "vomout.latex-workshop-sanity",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "Ce fork n'est plus maintenu.",
+                "en": "This fork is no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "texlab avec latex-syntax",
+                "en": "texlab with latex-syntax"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=vomout.latex-workshop-sanity"
+        },
+
+        {
+            "id": "CodeSandbox-io.codesandbox-projects",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension CodeSandbox pour VS Code est officiellement dépréciée et son fonctionnement a été arrêté en juillet 2026.",
+                "en": "The CodeSandbox extension for VS Code is officially deprecated and its operation was discontinued in July 2026."
+            },
+
+            "replacement": {
+                "fr": "Utiliser CodeSandbox directement depuis son interface web",
+                "en": "Use CodeSandbox directly from its web interface"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=CodeSandbox-io.codesandbox-projects"
+        },
+
+        {
+            "id": "Iterative.dvc",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette extension DVC est dépréciée au profit de la nouvelle version publiée par lakeFS.",
+                "en": "This DVC extension is deprecated in favor of the new version published by lakeFS."
+            },
+
+            "replacement": {
+                "fr": "DVC by lakeFS",
+                "en": "DVC by lakeFS"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=Iterative.dvc"
+        },
+
+        {
+            "id": "dalance.vscode-veryl",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension a été déplacée vers un nouveau publisher et cette ancienne version est officiellement dépréciée.",
+                "en": "The extension was moved to a new publisher and this old version is officially deprecated."
+            },
+
+            "replacement": {
+                "fr": "veryl-lang.veryl-vscode",
+                "en": "veryl-lang.veryl-vscode"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=dalance.vscode-veryl"
+        },
+
+        {
+            "id": "ballerina.ballerina",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette ancienne extension Ballerina est officiellement dépréciée.",
+                "en": "This old Ballerina extension is officially deprecated."
+            },
+
+            "replacement": {
+                "fr": "WSO2.ballerina",
+                "en": "WSO2.ballerina"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=ballerina.ballerina"
+        },
+
+        {
+            "id": "codesee.codesee-symbol-maps",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'éditeur indique explicitement que l'extension n'est plus maintenue.",
+                "en": "The publisher explicitly states that the extension is no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=codesee.codesee-symbol-maps"
+        },
+
+        {
+            "id": "kkdev92.claude-imgpaste",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension est dépréciée, n'est plus maintenue et son dépôt est archivé.",
+                "en": "The extension is deprecated, no longer maintained, and its repository is archived."
+            },
+
+            "replacement": {
+                "fr": "ClipShot",
+                "en": "ClipShot"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=kkdev92.claude-imgpaste"
+        },
+
+        {
+            "id": "quinton-ashley.p5play-vscode",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension p5play VSCode est officiellement dépréciée et remplacée par q5play.",
+                "en": "The p5play VSCode extension is officially deprecated and replaced by q5play."
+            },
+
+            "replacement": {
+                "fr": "q5play VSCode",
+                "en": "q5play VSCode"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=quinton-ashley.p5play-vscode"
+        },
+
+        {
+            "id": "awwsky.csharpfixformatfixed",
+            "status": "deprecated",
+            "reason": {
+                "fr": "L'extension est officiellement dépréciée et n'est plus compatible avec les versions récentes de VS Code.",
+                "en": "The extension is officially deprecated and is no longer compatible with recent versions of VS Code."
+            },
+            "replacement": {
+                "fr": "OmniSharp",
+                "en": "OmniSharp"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=awwsky.csharpfixformatfixed"
+        },
+        {
+            "id": "EdwinKofler.vscode-panda-utils",
+            "status": "deprecated",
+            "reason": {
+                "fr": "L'extension est officiellement dépréciée à la suite de son changement de nom.",
+                "en": "The extension is officially deprecated following its rename."
+            },
+            "replacement": {
+                "fr": "vscode-hyperupcall",
+                "en": "vscode-hyperupcall"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-panda-utils"
+        },
+        {
+            "id": "itmcdev.swagger-extension-pack",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Ce pack d'extensions est officiellement déprécié au profit du nouveau pack API Tools.",
+                "en": "This extension pack is officially deprecated in favor of the new API Tools extension pack."
+            },
+            "replacement": {
+                "fr": "itmcdev.api-tools-extension-pack",
+                "en": "itmcdev.api-tools-extension-pack"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=itmcdev.swagger-extension-pack"
+        },
+        {
+            "id": "MinovativeTechnologies.minovative-mind-vscode",
+            "status": "deprecated",
+            "reason": {
+                "fr": "L'extension VS Code est dépréciée au profit du nouvel outil en ligne de commande.",
+                "en": "The VS Code extension is being deprecated in favor of the new command-line tool."
+            },
+            "replacement": {
+                "fr": "minovative-mind-cli",
+                "en": "minovative-mind-cli"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=MinovativeTechnologies.minovative-mind-vscode"
+        },
+        {
+            "id": "WSO2.wso2-platform",
+            "status": "deprecated",
+            "reason": {
+                "fr": "L'extension WSO2 Platform est officiellement dépréciée au profit de WSO2 Integrator.",
+                "en": "The WSO2 Platform extension is officially deprecated in favor of WSO2 Integrator."
+            },
+            "replacement": {
+                "fr": "WSO2 Integrator",
+                "en": "WSO2 Integrator"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=WSO2.wso2-platform"
+        },
+        {
+            "id": "WSO2.ballerina-integrator",
+            "status": "deprecated",
+            "reason": {
+                "fr": "WSO2 Integrator: BI est officiellement dépréciée au profit de WSO2 Integrator.",
+                "en": "WSO2 Integrator: BI is officially deprecated in favor of WSO2 Integrator."
+            },
+            "replacement": {
+                "fr": "WSO2 Integrator",
+                "en": "WSO2 Integrator"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina-integrator"
+        },
+        {
+            "id": "donjayamanne.javadebugger",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Cette ancienne extension de débogage Java n'est plus maintenue et a été dépréciée.",
+                "en": "This old Java debugging extension is no longer maintained and has been deprecated."
+            },
+            "replacement": {
+                "fr": "Java Debug Extension for Visual Studio Code",
+                "en": "Java Debug Extension for Visual Studio Code"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=donjayamanne.javadebugger"
+        },
+        {
+            "id": "danields761.status-bar-breadcrumb",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "L'extension est dépréciée et n'est plus maintenue, VS Code intégrant désormais nativement les breadcrumbs.",
+                "en": "The extension is deprecated and no longer maintained because VS Code now provides native breadcrumb support."
+            },
+            "replacement": {
+                "fr": "Breadcrumbs intégrés à VS Code",
+                "en": "Built-in VS Code breadcrumbs"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=danields761.status-bar-breadcrumb"
+        },
+        {
+            "id": "doublefint.vscode-cos",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Cette ancienne extension Caché ObjectScript est dépréciée.",
+                "en": "This old Caché ObjectScript extension is deprecated."
+            },
+            "replacement": {
+                "fr": "vscode-objectscript",
+                "en": "vscode-objectscript"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=doublefint.vscode-cos"
+        },
+        {
+            "id": "novo-studio.xeto-extension",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Cette version de l'extension Xeto n'est plus maintenue et le projet a été déplacé vers un nouvel éditeur.",
+                "en": "This version of the Xeto extension is no longer maintained and the project has moved to a new publisher."
+            },
+            "replacement": {
+                "fr": "Xeto IDE Extension officielle",
+                "en": "Official Xeto IDE Extension"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=novo-studio.xeto-extension"
+        },
+        {
+            "id": "Pasu4.neuropilot",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Cet ancien namespace NeuroPilot est déprécié et ne recevra plus de mises à jour.",
+                "en": "This old NeuroPilot namespace is deprecated and will no longer receive updates."
+            },
+            "replacement": {
+                "fr": "vsc-neuropilot.neuropilot-base",
+                "en": "vsc-neuropilot.neuropilot-base"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=Pasu4.neuropilot"
+        },
+        {
+            "id": "sswg.swift-lang",
+            "status": "deprecated",
+            "reason": {
+                "fr": "L'ancienne extension Swift a été déplacée vers un nouveau publisher et cette version est dépréciée.",
+                "en": "The old Swift extension moved to a new publisher and this version is deprecated."
+            },
+            "replacement": {
+                "fr": "swiftlang.swift-vscode",
+                "en": "swiftlang.swift-vscode"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang"
+        },
+        {
+            "id": "dyno-nguyen.vscode-dynofileutils",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Dyno File Utils est officiellement dépréciée et n'est plus maintenue, ses fonctionnalités ayant été déplacées vers Dyno AIO.",
+                "en": "Dyno File Utils is officially deprecated and no longer maintained, with its features moved to Dyno AIO."
+            },
+            "replacement": {
+                "fr": "Dyno AIO",
+                "en": "Dyno AIO"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=dyno-nguyen.vscode-dynofileutils"
+        },
+        {
+            "id": "donjayamanne.jupyterpowertools",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Jupyter Power Tools n'est plus maintenue et ses fonctionnalités ont été déplacées vers une extension Microsoft.",
+                "en": "Jupyter Power Tools is no longer maintained and its functionality has been moved to a Microsoft extension."
+            },
+            "replacement": {
+                "fr": "Microsoft Jupyter Powertoys",
+                "en": "Microsoft Jupyter Powertoys"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=donjayamanne.jupyterpowertools"
+        },
+        {
+            "id": "CADENAS.vscode-glsllint",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Cette version de GLSL Lint est officiellement dépréciée au profit d'une version publiée sous un autre identifiant.",
+                "en": "This version of GLSL Lint is officially deprecated in favor of a version published under another identifier."
+            },
+            "replacement": {
+                "fr": "dtoplak.vscode-glsllint",
+                "en": "dtoplak.vscode-glsllint"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=CADENAS.vscode-glsllint"
+        },
+        {
+            "id": "surranov.nested-open-editors",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Nested Open Editors est officiellement dépréciée et n'est plus maintenue.",
+                "en": "Nested Open Editors is officially deprecated and no longer maintained."
+            },
+            "replacement": {
+                "fr": "surranov.tab-tree",
+                "en": "surranov.tab-tree"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=surranov.nested-open-editors"
+        },
+        {
+            "id": "bitwisecook.iapp",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "L'extension F5 Networks iApp est dépréciée et n'est plus maintenue.",
+                "en": "The F5 Networks iApp extension is deprecated and no longer maintained."
+            },
+            "replacement": {
+                "fr": "tcl-lsp",
+                "en": "tcl-lsp"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=bitwisecook.iapp"
+        },
+
+        {
+            "id": "ms-vscode.vscode-typescript-tslint-plugin",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension TSLint est officiellement dépréciée, comme TSLint lui-même, au profit d'ESLint.",
+                "en": "The TSLint extension is officially deprecated, along with TSLint itself, in favor of ESLint."
+            },
+
+            "replacement": {
+                "fr": "ESLint",
+                "en": "ESLint"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin"
+        },
+
+        {
+            "id": "axetroy.vscode-deno",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "Cette ancienne extension Deno n'est plus maintenue et son auteur recommande de passer à l'extension officielle.",
+                "en": "This old Deno extension is no longer maintained and its author recommends moving to the official extension."
+            },
+
+            "replacement": {
+                "fr": "denoland.vscode-deno",
+                "en": "denoland.vscode-deno"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=axetroy.vscode-deno"
+        },
+
+        {
+            "id": "AugusteRame.zls-vscode",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette extension Zig Language Server est explicitement dépréciée au profit de l'extension Zig officielle.",
+                "en": "This Zig Language Server extension is explicitly deprecated in favor of the official Zig extension."
+            },
+
+            "replacement": {
+                "fr": "ziglang.vscode-zig",
+                "en": "ziglang.vscode-zig"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=AugusteRame.zls-vscode"
+        },
+
+        {
+            "id": "Cole-St-John.sigmaxim-support",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'auteur indique explicitement que cette extension n'est plus maintenue.",
+                "en": "The author explicitly states that this extension is no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=Cole-St-John.sigmaxim-support"
+        },
+
+        {
+            "id": "flexpilot.flexpilot-vscode-extension",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension VS Code Flexpilot n'est plus activement maintenue et son développement a été déplacé vers Flexpilot IDE.",
+                "en": "The Flexpilot VS Code extension is no longer actively maintained and development has moved to Flexpilot IDE."
+            },
+
+            "replacement": {
+                "fr": "Flexpilot IDE",
+                "en": "Flexpilot IDE"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=flexpilot.flexpilot-vscode-extension"
+        },
+
+        {
+            "id": "0TickPulse.vscode-mythic",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension est explicitement déclarée dépréciée et n'est plus maintenue.",
+                "en": "The extension is explicitly declared deprecated and is no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "Nouvelle extension Mythic indiquée par l'auteur",
+                "en": "New Mythic extension referenced by the author"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=0TickPulse.vscode-mythic"
+        },
+
+        {
+            "id": "marpo.gruvbox-material-marpo",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'auteur indique que cette extension n'est plus maintenue par manque de temps et parce que VS Code n'est plus son éditeur principal.",
+                "en": "The author states that this extension is no longer maintained due to lack of time and because VS Code is no longer their daily editor."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=marpo.gruvbox-material-marpo"
+        },
+
+        {
+            "id": "smartytomato.smartopen",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "Smart Open n'est plus maintenue, ses fonctionnalités ayant été séparées dans plusieurs extensions plus petites.",
+                "en": "Smart Open is no longer maintained, with its functionality split into several smaller extensions."
+            },
+
+            "replacement": {
+                "fr": "smartertomato.locate-this-document / smartertomato.open-related-documents",
+                "en": "smartertomato.locate-this-document / smartertomato.open-related-documents"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=smartytomato.smartopen"
+        },
+
+        {
+            "id": "lod-inc.qwen-commit",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "Le projet Qwen Commit est explicitement indiqué comme n'étant plus maintenu.",
+                "en": "The Qwen Commit project is explicitly stated to be no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "open-commit-pub",
+                "en": "open-commit-pub"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=lod-inc.qwen-commit"
+        },
+
+        {
+            "id": "aqerd.andes-rs",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "Le projet Andes n'est plus activement maintenu et son auteur recommande d'utiliser Cline à la place.",
+                "en": "The Andes project is no longer actively maintained and its author recommends using Cline instead."
+            },
+
+            "replacement": {
+                "fr": "Cline",
+                "en": "Cline"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=aqerd.andes-rs"
+        },
+
+        {
+            "id": "auchenberg.vscode-browser-preview",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension Browser Preview est officiellement dépréciée au profit de Live Preview.",
+                "en": "The Browser Preview extension is officially deprecated in favor of Live Preview."
+            },
+
+            "replacement": {
+                "fr": "ms-vscode.live-server",
+                "en": "ms-vscode.live-server"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=auchenberg.vscode-browser-preview"
+        },
+
+        {
+            "id": "tomaciazek.ansible",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette ancienne extension Ansible est officiellement dépréciée au profit de l'extension publiée par Red Hat.",
+                "en": "This old Ansible extension is officially deprecated in favor of the extension published by Red Hat."
+            },
+
+            "replacement": {
+                "fr": "redhat.ansible",
+                "en": "redhat.ansible"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=tomaciazek.ansible"
+        },
+
+        {
+            "id": "wmaurer.join-lines",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension n'est plus maintenue car la commande Join Lines est désormais intégrée directement à VS Code.",
+                "en": "The extension is no longer maintained because the Join Lines command is now built directly into VS Code."
+            },
+
+            "replacement": {
+                "fr": "Commande Join Lines intégrée à VS Code",
+                "en": "Built-in VS Code Join Lines command"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=wmaurer.join-lines"
+        },
+
+        {
+            "id": "connorshea.vscode-ruby-test-adapter",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Ruby Test Explorer est officiellement dépréciée et n'est plus maintenue.",
+                "en": "Ruby Test Explorer is officially deprecated and is no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "Shopify.ruby-lsp",
+                "en": "Shopify.ruby-lsp"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=connorshea.vscode-ruby-test-adapter"
+        },
+
+        {
+            "id": "justinmahar.react-icons-snippets",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension React-Icons Snippets est officiellement dépréciée et n'est plus maintenue.",
+                "en": "The React-Icons Snippets extension is officially deprecated and is no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=justinmahar.react-icons-snippets"
+        },
+
+        {
+            "id": "maruf-bepary.llama-vscode-chat",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension est dépréciée car VS Code prend désormais directement en charge les fournisseurs de modèles via des endpoints personnalisés.",
+                "en": "The extension is deprecated because VS Code now directly supports model providers through custom endpoints."
+            },
+
+            "replacement": {
+                "fr": "Custom Endpoint Provider intégré à VS Code",
+                "en": "Built-in VS Code Custom Endpoint Provider"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=maruf-bepary.llama-vscode-chat"
+        },
+
+        {
+            "id": "mkloubert.vs-cron",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension vs-cron est officiellement dépréciée et son auteur recommande d'utiliser vscode-powertools.",
+                "en": "The vs-cron extension is officially deprecated and its author recommends using vscode-powertools."
+            },
+
+            "replacement": {
+                "fr": "vscode-powertools",
+                "en": "vscode-powertools"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=mkloubert.vs-cron"
+        },
+
+        {
+            "id": "Try-ripple.ripple-vscode",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'ancienne extension Ripple est dépréciée après le changement de nom du projet vers Spectrace et ne recevra plus de nouvelles fonctionnalités.",
+                "en": "The legacy Ripple extension is deprecated following the project's move to Spectrace and will no longer receive feature updates."
+            },
+
+            "replacement": {
+                "fr": "spectrace.spectrace-vscode",
+                "en": "spectrace.spectrace-vscode"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=Try-ripple.ripple-vscode"
+        },
+
+        {
+            "id": "iganbold.superdesign",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette version de SuperDesign est dépréciée après le déplacement du projet vers son nouveau compte publisher officiel.",
+                "en": "This version of SuperDesign is deprecated after the project moved to its new official publisher account."
+            },
+
+            "replacement": {
+                "fr": "Nouvelle extension publiée par SuperdesignDev",
+                "en": "New extension published by SuperdesignDev"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=iganbold.superdesign"
+        },
+
+        {
+            "id": "slycreator.speakclaw",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension VS Code SpeakClaw est dépréciée, le produit ayant été remplacé par une application desktop native.",
+                "en": "The SpeakClaw VS Code extension is deprecated, with the product replaced by a native desktop application."
+            },
+
+            "replacement": {
+                "fr": "Application desktop SpeakClaw",
+                "en": "SpeakClaw desktop application"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=slycreator.speakclaw"
+        },
+
+        {
+            "id": "IBM.spark-labs",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension Spark Labs pour IBM Analytics Engine est officiellement dépréciée et doit être remplacée par l'expérience Spark Labs de watsonx.data.",
+                "en": "The Spark Labs extension for IBM Analytics Engine is officially deprecated and should be replaced by the Spark Labs experience from watsonx.data."
+            },
+
+            "replacement": {
+                "fr": "Spark Labs depuis watsonx.data",
+                "en": "Spark Labs from watsonx.data"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=IBM.spark-labs"
+        },
+
+        {
+            "id": "haberdashPI.vscode-modal-keys",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension ModalKeys n'est plus supportée par son auteur, le développement ayant été déplacé vers son successeur Master Key.",
+                "en": "ModalKeys is no longer supported by its author, with development moved to its successor Master Key."
+            },
+
+            "replacement": {
+                "fr": "Master Key",
+                "en": "Master Key"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=haberdashPI.vscode-modal-keys"
+        },
+
+        {
+            "id": "digitalfuel.vscode-platformos",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette extension PlatformOS est dépréciée au profit de l'extension officielle PlatformOS.",
+                "en": "This PlatformOS extension is deprecated in favor of the official PlatformOS extension."
+            },
+
+            "replacement": {
+                "fr": "platformOS.platformos-check-vscode",
+                "en": "platformOS.platformos-check-vscode"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=digitalfuel.vscode-platformos"
+        },
+
+        {
+            "id": "Qualyyy.folder-template-generator",
+            "status": "renamed",
+
+            "reason": {
+                "fr": "L'extension Folder Template Generator a été renommée et republiée sous le nom Custom Template Generator. Les futures mises à jour sont publiées sur la nouvelle extension.",
+                "en": "Folder Template Generator was renamed and republished as Custom Template Generator. Future updates are published through the new extension."
+            },
+
+            "replacement": {
+                "fr": "Custom Template Generator",
+                "en": "Custom Template Generator"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=Qualyyy.folder-template-generator"
+        },
+
+        {
+            "id": "symzn.vscode-micromamba-env",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette version de Micromamba Environment Provider est explicitement dépréciée, son auteur recommande d'installer la nouvelle version améliorée.",
+                "en": "This version of Micromamba Environment Provider is explicitly deprecated, and its author recommends installing the new improved version."
+            },
+
+            "replacement": {
+                "fr": "Micromamba Envs",
+                "en": "Micromamba Envs"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=symzn.vscode-micromamba-env"
+        },
+
+        {
+            "id": "jpogran.puppet-vscode",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'ancien namespace de l'extension Puppet n'est plus maintenu, le projet ayant été transféré vers le namespace officiel Puppet.",
+                "en": "The old Puppet extension namespace is no longer maintained, as the project has moved to the official Puppet namespace."
+            },
+
+            "replacement": {
+                "fr": "puppet.puppet-vscode",
+                "en": "puppet.puppet-vscode"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=jpogran.puppet-vscode"
+        },
+
+        {
+            "id": "mristin.crosshair-vscode",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette version de CrossHair pour VS Code a été déplacée vers un nouveau publisher. L'auteur demande de désinstaller cette ancienne extension et d'installer la nouvelle.",
+                "en": "This version of CrossHair for VS Code was migrated to a new publisher. The author asks users to uninstall this old extension and install the new one."
+            },
+
+            "replacement": {
+                "fr": "Nouvelle extension CrossHair publiée sous le nouveau publisher",
+                "en": "New CrossHair extension published under the new publisher"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=mristin.crosshair-vscode"
+        },
+
+        {
+            "id": "SimovaGmbH.simovaGmbHRNM",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'éditeur indique explicitement que cette extension n'est plus supportée et qu'elle est devenue obsolète.",
+                "en": "The publisher explicitly states that this extension is no longer supported and has become obsolete."
+            },
+
+            "replacement": {
+                "fr": "Nouvelle version de l'extension indiquée par l'éditeur",
+                "en": "New version of the extension referenced by the publisher"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=SimovaGmbH.simovaGmbHRNM"
+        },
+
+        {
+            "id": "Serigne-Diagne.aimastery-vincian-analysis",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette version de AI Mastery Vincian Analysis est explicitement dépréciée et remplacée par une nouvelle version de Vincian Code Analysis.",
+                "en": "This version of AI Mastery Vincian Analysis is explicitly deprecated and superseded by a new Vincian Code Analysis extension."
+            },
+
+            "replacement": {
+                "fr": "Vincian Code Analysis",
+                "en": "Vincian Code Analysis"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=Serigne-Diagne.aimastery-vincian-analysis"
+        },
+
+        {
+            "id": "avaly.restore-git-branch-tabs-improved",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension est officiellement dépréciée et ne recevra plus de mises à jour, sa fonctionnalité étant désormais intégrée nativement à VS Code depuis la version 1.89.",
+                "en": "The extension is officially deprecated and will receive no further updates, as its functionality is now built into VS Code starting with version 1.89."
+            },
+
+            "replacement": {
+                "fr": "Fonction native de VS Code pour sauvegarder et restaurer les éditeurs lors d'un changement de branche",
+                "en": "Built-in VS Code feature to save and restore open editors when switching branches"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=avaly.restore-git-branch-tabs-improved"
+        },
+
+        {
+            "id": "canalun.vSQLfmt",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension vSQLfmt est officiellement dépréciée au profit de son successeur plus complet, InsertFmt.",
+                "en": "The vSQLfmt extension is officially deprecated in favor of its more powerful successor, InsertFmt."
+            },
+
+            "replacement": {
+                "fr": "InsertFmt",
+                "en": "InsertFmt"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=canalun.vSQLfmt"
+        },
+
+        {
+            "id": "vsciot-vscode.vscode-arduino",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension Arduino pour VS Code de Microsoft est officiellement dépréciée, n'est plus maintenue et a été retirée du Marketplace.",
+                "en": "Microsoft's Arduino extension for VS Code is officially deprecated, no longer maintained, and has been removed from the Marketplace."
+            },
+
+            "replacement": {
+                "fr": "Arduino IDE",
+                "en": "Arduino IDE"
+            },
+
+            "source": "https://github.com/microsoft/vscode-arduino"
+        },
+
+        {
+            "id": "influxdata.flux",
+            "status": "archived",
+
+            "reason": {
+                "fr": "L'extension VS Code Flux n'est plus maintenue, n'est plus disponible sur le Marketplace et son dépôt a été archivé.",
+                "en": "The Flux VS Code extension is no longer maintained, is no longer available from the Marketplace, and its repository has been archived."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://docs.influxdata.com/influxdb/cloud/reference/release-notes/cloud-updates/"
+        },
+
+        {
+            "id": "rust-lang.rust",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'ancienne extension Rust est officiellement dépréciée. La documentation VS Code recommande désormais rust-analyzer.",
+                "en": "The old Rust extension is officially deprecated. VS Code documentation now recommends rust-analyzer."
+            },
+
+            "replacement": {
+                "fr": "rust-lang.rust-analyzer",
+                "en": "rust-lang.rust-analyzer"
+            },
+
+            "source": "https://code.visualstudio.com/docs/languages/rust"
+        },
+
+        {
+            "id": "Tyriar.terminal-tabs",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension Terminal Tabs est officiellement dépréciée car les onglets de terminal sont désormais intégrés directement à VS Code.",
+                "en": "The Terminal Tabs extension is officially deprecated because terminal tabs are now built directly into VS Code."
+            },
+
+            "replacement": {
+                "fr": "Onglets de terminal intégrés à VS Code",
+                "en": "Built-in VS Code terminal tabs"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=Tyriar.terminal-tabs"
+        },
+
+        {
+            "id": "Duvaragesh.ibm-iagentx",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension IBM iAgentX est officiellement dépréciée et n'est plus maintenue. L'auteur demande de la désinstaller et de passer à la nouvelle extension iAgentX for IBM i.",
+                "en": "The IBM iAgentX extension is officially deprecated and no longer maintained. The author asks users to uninstall it and migrate to the new iAgentX for IBM i extension."
+            },
+
+            "replacement": {
+                "fr": "iAgentX for IBM i",
+                "en": "iAgentX for IBM i"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=Duvaragesh.ibm-iagentx"
+        },
+
+        {
+            "id": "prettier.prettier-vscode",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette ancienne extension Prettier est officiellement dépréciée au profit de l'extension Prettier officielle actuellement maintenue.",
+                "en": "This old Prettier extension is officially deprecated in favor of the currently maintained official Prettier extension."
+            },
+
+            "replacement": {
+                "fr": "esbenp.prettier-vscode",
+                "en": "esbenp.prettier-vscode"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=prettier.prettier-vscode"
+        },
+
+        {
+            "id": "OpaccSoftwareAG.blockscript",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension BlockScript n'est plus maintenue. BlockScript et F-Script sont désormais pris en charge par l'extension Opacc Scripting.",
+                "en": "The BlockScript extension is no longer maintained. BlockScript and F-Script are now supported by the Opacc Scripting extension."
+            },
+
+            "replacement": {
+                "fr": "OpaccSoftwareAG.opaccscripting",
+                "en": "OpaccSoftwareAG.opaccscripting"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=OpaccSoftwareAG.blockscript"
+        },
+
+        {
+            "id": "msjsdiag.debugger-for-chrome",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension Debugger for Chrome est dépréciée, ses fonctionnalités de débogage étant désormais intégrées directement à VS Code.",
+                "en": "The Debugger for Chrome extension is deprecated, as its debugging functionality is now built directly into VS Code."
+            },
+
+            "replacement": {
+                "fr": "Débogueur JavaScript intégré à VS Code",
+                "en": "Built-in JavaScript debugger in VS Code"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome"
+        },
+
+        {
+            "id": "liximomo.sftp",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension SFTP originale n'est plus activement maintenue et a été marquée comme dépréciée par l'équipe VS Code.",
+                "en": "The original SFTP extension is no longer actively maintained and was marked as deprecated by the VS Code team."
+            },
+
+            "replacement": {
+                "fr": "Natizyskunk.sftp",
+                "en": "Natizyskunk.sftp"
+            },
+
+            "source": "https://github.com/liximomo/vscode-sftp/issues/999"
+        },
+
+        {
+            "id": "freebroccolo.reasonml",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'ancienne extension ReasonML n'est plus maintenue. OCaml Platform est recommandée pour le support moderne d'OCaml dans VS Code.",
+                "en": "The old ReasonML extension is no longer maintained. OCaml Platform is recommended for modern OCaml support in VS Code."
+            },
+
+            "replacement": {
+                "fr": "ocamllabs.ocaml-platform",
+                "en": "ocamllabs.ocaml-platform"
+            },
+
+            "source": "https://github.com/reasonml-editor/vscode-reasonml"
+        },
+
+        {
+            "id": "ionic-team.ionic",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension Ionic pour VS Code est dépréciée et n'est plus maintenue, le projet recommande désormais WebNative.dev.",
+                "en": "The Ionic VS Code extension is deprecated and no longer maintained, with the project now recommending WebNative.dev."
+            },
+
+            "replacement": {
+                "fr": "WebNative.dev",
+                "en": "WebNative.dev"
+            },
+
+            "source": "https://github.com/ionic-team/vscode-ionic"
+        },
+
+        {
+            "id": "Toradex.torizon-early-access",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension Toradex Torizon Support est officiellement dépréciée. Seuls les correctifs critiques étaient encore prévus, sans nouvelles fonctionnalités.",
+                "en": "The Toradex Torizon Support extension is officially deprecated. Only critical bug fixes were planned, with no new features."
+            },
+
+            "replacement": {
+                "fr": "Torizon IDE Extension - ApolloX",
+                "en": "Torizon IDE Extension - ApolloX"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=Toradex.torizon-early-access"
+        },
+
+        {
+            "id": "JLT.vsc-phind",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension Phind est officiellement dépréciée car les en-têtes de sécurité de phind.com empêchent désormais son intégration dans la barre latérale de VS Code.",
+                "en": "The Phind extension is officially deprecated because phind.com's security headers now prevent it from being embedded in the VS Code sidebar."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=JLT.vsc-phind"
+        },
+
+        {
+            "id": "Azevedo-Software.claude-config-manager",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension Claude Config Manager est officiellement dépréciée et n'est plus activement maintenue depuis novembre 2025.",
+                "en": "The Claude Config Manager extension is officially deprecated and is no longer actively maintained as of November 2025."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=Azevedo-Software.claude-config-manager"
+        },
+        {
+            "id": "cedros-development.winnetoujs-vscode-framework",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette extension WinnetouJs est dépréciée et n'est plus maintenue. Elle reste destinée aux versions 2.x, tandis qu'une nouvelle extension est prévue pour WinnetouJs 3.x et versions ultérieures.",
+                "en": "This WinnetouJs extension is deprecated and no longer maintained. It remains intended for version 2.x, while a new extension is provided for WinnetouJs 3.x and later."
+            },
+
+            "replacement": {
+                "fr": "Nouvelle extension WinnetouJs pour les versions 3.x et ultérieures",
+                "en": "New WinnetouJs extension for versions 3.x and later"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=cedros-development.winnetoujs-vscode-framework"
+        },
+        {
+            "id": "vomout.latex-workshop-sanity",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "Ce fork de LaTeX Workshop est officiellement déprécié et n'est plus maintenu. L'auteur recommande texlab avec latex-syntax.",
+                "en": "This LaTeX Workshop fork is officially deprecated and is no longer maintained. The author recommends texlab with latex-syntax."
+            },
+
+            "replacement": {
+                "fr": "texlab avec latex-syntax",
+                "en": "texlab with latex-syntax"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=vomout.latex-workshop-sanity"
+        },
+        {
+            "id": "SatoshiYamamoto.vscode-date-time-calendar",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Date Time Calendar est officiellement dépréciée. Ses fonctionnalités ont été séparées en deux extensions plus simples.",
+                "en": "Date Time Calendar is officially deprecated. Its functionality has been split into two simpler extensions."
+            },
+
+            "replacement": {
+                "fr": "SatoshiYamamoto.vscode-smart-insert-date et SatoshiYamamoto.vscode-insert-calendar",
+                "en": "SatoshiYamamoto.vscode-smart-insert-date and SatoshiYamamoto.vscode-insert-calendar"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=SatoshiYamamoto.vscode-date-time-calendar"
+        },
+        {
+            "id": "rkoubou.ksp-v1-preview",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette version préliminaire de KONTAKT Script Processor est officiellement dépréciée au profit de la version 1.0 officielle.",
+                "en": "This preview version of KONTAKT Script Processor is officially deprecated in favor of the official 1.0 release."
+            },
+
+            "replacement": {
+                "fr": "rkoubou.ksp",
+                "en": "rkoubou.ksp"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=rkoubou.ksp-v1-preview"
+        },
+
+        {
+            "id": "chiperific.authzed",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette ancienne extension AuthZed est dépréciée depuis la publication d'une extension officielle par AuthZed.",
+                "en": "This older AuthZed extension is deprecated following the release of an official extension by AuthZed."
+            },
+
+            "replacement": {
+                "fr": "authzed.spicedb-vscode",
+                "en": "authzed.spicedb-vscode"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=chiperific.authzed"
+        },
+
+        {
+            "id": "ms-vscode.copilot-mermaid-diagram",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension vscode-mermAId n'est plus maintenue depuis que la prise en charge des diagrammes Mermaid est intégrée nativement à VS Code à partir de la version 1.109.",
+                "en": "The vscode-mermAId extension is no longer maintained because Mermaid diagram support is built directly into VS Code starting with version 1.109."
+            },
+
+            "replacement": {
+                "fr": "Prise en charge native de Mermaid dans VS Code",
+                "en": "Built-in Mermaid support in VS Code"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.copilot-mermaid-diagram"
+        },
+
+        {
+            "id": "GoTodo.gotodo",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette ancienne extension Taqiro est officiellement dépréciée et n'est plus maintenue.",
+                "en": "This older Taqiro extension is officially deprecated and is no longer maintained."
+            },
+
+            "replacement": {
+                "fr": "taqiro.taqiro",
+                "en": "taqiro.taqiro"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=GoTodo.gotodo"
+        },
+
+        {
+            "id": "coalaura.vs-fivem",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension VS FiveM IntelliSense n'est plus maintenue et ne recevra plus de nouvelles fonctionnalités, corrections ou améliorations.",
+                "en": "The VS FiveM IntelliSense extension is no longer maintained and will receive no new features, fixes or improvements."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=coalaura.vs-fivem"
+        },
+
+        {
+            "id": "PictElm.pico8code",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension pico8code n'est plus maintenue par son auteur.",
+                "en": "The pico8code extension is no longer maintained by its author."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=PictElm.pico8code"
+        },
+
+        {
+            "id": "VisualStudioExptTeam.vscodeintellicode",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Microsoft a officiellement déprécié l'extension IntelliCode. Aucune nouvelle fonctionnalité ne sera ajoutée et les correctifs ainsi que le support ont pris fin.",
+                "en": "Microsoft officially deprecated the IntelliCode extension. No new features will be added, and bug fixes and support have ended."
+            },
+
+            "replacement": {
+                "fr": "Support IntelliSense fourni par les serveurs de langage, ou GitHub Copilot Chat pour l'assistance IA",
+                "en": "Language server-powered IntelliSense, or GitHub Copilot Chat for AI-assisted coding"
+            },
+
+            "source": "https://github.com/microsoft/vscode-dotnettools/issues/2537"
+        },
+        {
+            "id": "VisualStudioExptTeam.vscodeintellicode-completions",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Microsoft a officiellement déprécié IntelliCode Completions. Les suggestions inline IntelliCode ont été supprimées et le support de l'extension a pris fin.",
+                "en": "Microsoft officially deprecated IntelliCode Completions. IntelliCode inline suggestions were removed and support for the extension has ended."
+            },
+
+            "replacement": {
+                "fr": "Support natif des serveurs de langage, ou GitHub Copilot Chat",
+                "en": "Built-in language server support, or GitHub Copilot Chat"
+            },
+
+            "source": "https://github.com/microsoft/vscode-dotnettools/issues/2537"
+        },
+        {
+            "id": "Vms-dotnettools.vscodeintellicode-csharp",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Microsoft a officiellement déprécié IntelliCode for C# Dev Kit. Les correctifs et le support de l'extension ont pris fin.",
+                "en": "Microsoft officially deprecated IntelliCode for C# Dev Kit. Bug fixes and support for the extension have ended."
+            },
+
+            "replacement": {
+                "fr": "Support Roslyn intégré à l'environnement C#, ou GitHub Copilot Chat",
+                "en": "Roslyn language server support for C#, or GitHub Copilot Chat"
+            },
+
+            "source": "https://github.com/microsoft/vscode-dotnettools/issues/2537"
+        },
+        {
+            "id": "VisualStudioExptTeam.intellicode-api-usage-examples",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Microsoft a officiellement déprécié IntelliCode API Usage Examples et a mis fin aux correctifs et au support.",
+                "en": "Microsoft officially deprecated IntelliCode API Usage Examples and ended bug fixes and support."
+            },
+
+            "replacement": {
+                "fr": "GitHub Copilot Chat pour l'assistance IA",
+                "en": "GitHub Copilot Chat for AI-assisted coding"
+            },
+
+            "source": "https://github.com/microsoft/vscode-dotnettools/issues/2537"
+        },
+
+        {
+            "id": "ms-vscode.latex",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'extension LaTeX Language Support de Microsoft est officiellement dépréciée. Son auteur recommande de la désinstaller au profit d'une solution LaTeX plus récente.",
+                "en": "Microsoft's LaTeX Language Support extension is officially deprecated. Its author recommends uninstalling it in favor of a more recent LaTeX solution."
+            },
+
+            "replacement": {
+                "fr": "James-Yu.latex-workshop",
+                "en": "James-Yu.latex-workshop"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.latex"
+        },
+
+        {
+            "id": "ms-vscode.node-debug2",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'ancienne extension Node Debug de Microsoft est dépréciée. Le débogage Node.js est désormais assuré par le nouveau débogueur JavaScript intégré à VS Code.",
+                "en": "Microsoft's old Node Debug extension is deprecated. Node.js debugging is now handled by the newer JavaScript debugger built into VS Code."
+            },
+
+            "replacement": {
+                "fr": "Débogueur JavaScript intégré à VS Code",
+                "en": "Built-in JavaScript debugger in VS Code"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.node-debug2"
+        },
+
+        {
+            "id": "ms-vscode.azure-account",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Microsoft a officiellement déprécié l'extension Azure Account en janvier 2025. Les extensions Azure migrent vers les mécanismes d'authentification plus récents de VS Code.",
+                "en": "Microsoft officially deprecated the Azure Account extension in January 2025. Azure extensions are migrating to newer VS Code authentication mechanisms."
+            },
+
+            "replacement": {
+                "fr": "Authentification native de VS Code et Azure Resources selon l'usage",
+                "en": "Built-in VS Code authentication and Azure Resources depending on the use case"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account"
+        },
+
+        {
+            "id": "joslarson.black-vscode",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette ancienne extension de formatage Black pour Python est officiellement dépréciée. Elle avait été créée comme solution temporaire avant l'arrivée d'un support officiel dans l'écosystème Python de VS Code.",
+                "en": "This older Black formatter extension for Python is officially deprecated. It was created as a temporary solution before official support became available in the VS Code Python ecosystem."
+            },
+
+            "replacement": {
+                "fr": "Extension Python / outils de formatage Python officiels de Microsoft",
+                "en": "Microsoft's official Python extension / Python formatting tools"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=joslarson.black-vscode"
+        },
+
+        {
+            "id": "heptio.jsonnet",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension Jsonnet de Heptio a été abandonnée. La discussion officielle de dépréciation des extensions VS Code identifie le projet comme abandonné et indique l'existence d'un fork maintenu.",
+                "en": "The Heptio Jsonnet extension has been abandoned. VS Code's official extension deprecation discussion identifies the project as abandoned and points to a maintained fork."
+            },
+
+            "replacement": {
+                "fr": "Sebbia.jsonnetng",
+                "en": "Sebbia.jsonnetng"
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+
+        {
+            "id": "tht13.gerrit-vscode",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette ancienne extension Gerrit n'est plus maintenue et a été officiellement marquée comme dépréciée par l'équipe VS Code.",
+                "en": "This older Gerrit extension is no longer maintained and was officially marked as deprecated by the VS Code team."
+            },
+
+            "replacement": {
+                "fr": "SanderRonde.vscode--gerrit",
+                "en": "SanderRonde.vscode--gerrit"
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "felipecrs.vscode-gerrit",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'auteur de cette extension Gerrit a indiqué qu'il ne la maintenait plus et a demandé sa dépréciation. L'équipe VS Code a ensuite confirmé et appliqué la dépréciation.",
+                "en": "The author of this Gerrit extension stated that it was no longer maintained and requested its deprecation. The VS Code team subsequently verified and applied the deprecation."
+            },
+
+            "replacement": {
+                "fr": "SanderRonde.vscode--gerrit",
+                "en": "SanderRonde.vscode--gerrit"
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "KnisterPeter.vscode-github",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le mainteneur a confirmé que cette ancienne extension GitHub est dépréciée. L'équipe VS Code a vérifié et appliqué son statut de dépréciation.",
+                "en": "The maintainer confirmed that this older GitHub extension is deprecated. The VS Code team verified and applied its deprecated status."
+            },
+
+            "replacement": {
+                "fr": "GitHub Pull Requests and Issues",
+                "en": "GitHub Pull Requests and Issues"
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "antfu.vue-i18n-ally",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'auteur a officiellement déprécié cette ancienne extension Vue i18n Ally au profit de la nouvelle extension i18n Ally.",
+                "en": "The author officially deprecated this older Vue i18n Ally extension in favor of the newer i18n Ally extension."
+            },
+
+            "replacement": {
+                "fr": "lokalise.i18n-ally",
+                "en": "lokalise.i18n-ally"
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "antfu.i18n-ally",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'auteur a officiellement déprécié cette ancienne publication d'i18n Ally après le transfert du projet vers un nouveau publisher.",
+                "en": "The author officially deprecated this older i18n Ally publication after the project moved to a new publisher."
+            },
+
+            "replacement": {
+                "fr": "lokalise.i18n-ally",
+                "en": "lokalise.i18n-ally"
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "HaaLeo.vscode-stylint",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le mainteneur a demandé la dépréciation de l'extension car le linter Stylint lui-même n'est plus maintenu. L'équipe VS Code a vérifié et appliqué la dépréciation.",
+                "en": "The maintainer requested deprecation because the Stylint linter itself is no longer maintained. The VS Code team verified and applied the deprecation."
+            },
+
+            "replacement": {
+                "fr": "stylelint.vscode-stylelint",
+                "en": "stylelint.vscode-stylelint"
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+
+        {
+            "id": "Snooz82.rf-intellisense",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le mainteneur de Robot Framework Intellisense a lui-même demandé la dépréciation de cette extension.",
+                "en": "The maintainer of Robot Framework Intellisense requested the deprecation of this extension."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "TomiTurtiainen.rf-intellisense",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette ancienne extension Robot Framework n'est plus maintenue et a été marquée comme dépréciée par l'équipe VS Code.",
+                "en": "This older Robot Framework extension is no longer maintained and was marked as deprecated by the VS Code team."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "keith.robotframework",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette ancienne extension Robot Framework n'est plus compatible avec les versions modernes de Robot Framework et a été dépréciée.",
+                "en": "This older Robot Framework extension is no longer compatible with modern Robot Framework versions and was deprecated."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "vivainio.robotframework",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette ancienne extension Robot Framework est obsolète et a été marquée comme dépréciée.",
+                "en": "This older Robot Framework extension is obsolete and was marked as deprecated."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "JacobPhilip.danfoss-robotframework-debug",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette ancienne extension de débogage Robot Framework fait partie des extensions signalées puis dépréciées dans le processus officiel de VS Code.",
+                "en": "This older Robot Framework debugging extension is among the extensions reported and subsequently deprecated through the official VS Code process."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "kmk-labs.robotf-extension",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette extension Robot Framework n'est plus maintenue et n'est plus réellement compatible avec les fonctionnalités récentes du langage.",
+                "en": "This Robot Framework extension is no longer maintained and is no longer fully compatible with recent language features."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "yokey.robotf-souche-extension",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Ce fork d'une ancienne extension Robot Framework n'est plus réellement maintenu et a été signalé dans le processus officiel de dépréciation de VS Code.",
+                "en": "This fork of an older Robot Framework extension is no longer actively maintained and was reported through the official VS Code deprecation process."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "allyusd.robot-framework-helper",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cette ancienne extension d'assistance pour Robot Framework a été signalée puis traitée dans le processus officiel de dépréciation des extensions VS Code.",
+                "en": "This older Robot Framework helper extension was reported and handled through VS Code's official extension deprecation process."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "robotframeworkbambouna.vscode-rf-bam-formatter",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Cet ancien formatter Robot Framework n'est pas compatible avec les fonctionnalités récentes du langage et ne suit plus les pratiques actuelles de Robot Framework.",
+                "en": "This older Robot Framework formatter is not compatible with recent language features and no longer follows current Robot Framework practices."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+
+        {
+            "id": "eg2.tslint",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'ancienne extension TSLint est officiellement dépréciée. TSLint lui-même est obsolète et l'équipe VS Code a confirmé le statut deprecated de cette extension.",
+                "en": "The old TSLint extension is officially deprecated. TSLint itself is obsolete and the VS Code team confirmed the extension's deprecated status."
+            },
+
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+
+        {
+            "id": "nickeolofsson.dbt-studio-vscode",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "Le publisher a abandonné l'ancienne extension dbt Studio après son renommage et sa republication sous le nom dbt Anvil.",
+                "en": "The publisher discontinued the old dbt Studio extension after renaming and republishing it as dbt Anvil."
+            },
+
+            "replacement": {
+                "fr": "nickeolofsson.dbt-anvil-vscode",
+                "en": "nickeolofsson.dbt-anvil-vscode"
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "mistralai.mistral-code",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "La dépréciation de Mistral Code a été demandée au profit de la nouvelle extension Mistral Vibe Code.",
+                "en": "Mistral Code has been submitted for deprecation in favor of the new Mistral Vibe Code extension."
+            },
+
+            "replacement": {
+                "fr": "mistralai.mistral-vibe-code",
+                "en": "mistralai.mistral-vibe-code"
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+        {
+            "id": "ChalkAI.chalk-lsp",
+            "status": "deprecated",
+
+            "reason": {
+                "fr": "L'ancienne extension Chalk LSP a fait l'objet d'une demande de dépréciation au profit de la nouvelle extension Chalk.",
+                "en": "The old Chalk LSP extension has been submitted for deprecation in favor of the new Chalk extension."
+            },
+
+            "replacement": {
+                "fr": "chalk-ai.chalk-vscode",
+                "en": "chalk-ai.chalk-vscode"
+            },
+
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+
+        {
+            "id": "Elrond.vscode-elrond-ide",
+            "status": "unmaintained",
+
+            "reason": {
+                "fr": "L'extension MultiversX IDE n'est plus maintenue. Son éditeur recommande désormais d'utiliser directement les outils SpaceCraft pour construire et tester les smart contracts.",
+                "en": "The MultiversX IDE extension is no longer maintained. Its publisher now recommends using the SpaceCraft tooling directly to build and test smart contracts."
+            },
+
+            "replacement": {
+                "fr": "sc-meta, avec Rust Analyzer et CodeLLDB selon les besoins",
+                "en": "sc-meta, with Rust Analyzer and CodeLLDB as needed"
+            },
+
+            "source": "https://marketplace.visualstudio.com/items?itemName=Elrond.vscode-elrond-ide"
+        }
+
+    ]
+}
