@@ -14,6 +14,7 @@
 ![Offline First](https://img.shields.io/badge/Mode-Offline%20First-0095b1?style=flat)
 [![YouTube](https://img.shields.io/badge/YouTube-@Palks__Studio-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@Palks_Studio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-@Palks__Studio-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/palks-studio/)
+[![DEV.to](https://img.shields.io/badge/DEV.to-Technical%20Article-7C3AED?style=flat&logo=devdotto&logoColor=white)](https://dev.to/palks_studio/how-many-obsolete-dependencies-are-you-using-without-knowing-it-an-open-source-checker-4nnl)
 
 <p align="center">
   <a href="https://palks-studio.com">
@@ -26,6 +27,10 @@
 Un outil local et open source pour repérer rapidement des dépendances Python et des extensions VS Code connues comme dépréciées, archivées, renommées, inactives ou non maintenues.
 
 Le projet fonctionne à partir de bases d'alertes locales et ne nécessite aucun service externe.
+
+Pour aller plus loin, un article technique présente la conception de Dependency Security Checker, son fonctionnement entièrement local et l'intérêt de détecter les dépendances Python et extensions VS Code obsolètes ou abandonnées à partir de bases d'alertes documentées.
+
+👉 [How Many Obsolete Dependencies Are You Using Without Knowing It? An Open Source Checker](https://dev.to/palks_studio/how-many-obsolete-dependencies-are-you-using-without-knowing-it-an-open-source-checker-4nnl) (DEV.to, en anglais)
 
 ---
 
