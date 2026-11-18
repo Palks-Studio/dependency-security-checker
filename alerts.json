@@ -455,6 +455,7 @@
             },
             "source": "https://pypi.org/project/vsscale/"
         },
+
         {
             "name": "vsdenoise",
             "status": "deprecated",
@@ -468,6 +469,7 @@
             },
             "source": "https://pypi.org/project/vsdenoise/"
         },
+
         {
             "name": "vsexprtools",
             "status": "deprecated",
@@ -481,6 +483,7 @@
             },
             "source": "https://pypi.org/project/vsexprtools/"
         },
+
         {
             "name": "vskernels",
             "status": "deprecated",
@@ -494,6 +497,7 @@
             },
             "source": "https://pypi.org/project/vskernels/"
         },
+
         {
             "name": "vsdeband",
             "status": "deprecated",
@@ -507,6 +511,7 @@
             },
             "source": "https://pypi.org/project/vsdeband/"
         },
+
         {
             "name": "vsdehalo",
             "status": "deprecated",
@@ -520,6 +525,7 @@
             },
             "source": "https://pypi.org/project/vsdehalo/"
         },
+
         {
             "name": "vstools",
             "status": "deprecated",
@@ -533,6 +539,7 @@
             },
             "source": "https://pypi.org/project/vstools/"
         },
+
         {
             "name": "vsaa",
             "status": "deprecated",
@@ -560,6 +567,7 @@
             },
             "source": "https://pypi.org/project/datacommons/"
         },
+
         {
             "name": "datacommons-pandas",
             "status": "deprecated",
@@ -573,6 +581,7 @@
             },
             "source": "https://pypi.org/project/datacommons-pandas/"
         },
+
         {
             "name": "napari-plugin-engine",
             "status": "deprecated",
@@ -586,6 +595,7 @@
             },
             "source": "https://pypi.org/project/napari-plugin-engine/"
         },
+
         {
             "name": "ta-lib-everywhere",
             "status": "deprecated",
@@ -613,6 +623,7 @@
             },
             "source": "https://pypi.org/project/setuptools-markdown/"
         },
+
         {
             "name": "llama-index-finetuning",
             "status": "unmaintained",
@@ -626,6 +637,7 @@
             },
             "source": "https://pypi.org/project/llama-index-finetuning/"
         },
+
         {
             "name": "ipfabric-diagrams",
             "status": "archived",
@@ -639,6 +651,7 @@
             },
             "source": "https://pypi.org/project/ipfabric-diagrams/"
         },
+
         {
             "name": "fx-crash-sig",
             "status": "deprecated",
@@ -652,6 +665,7 @@
             },
             "source": "https://pypi.org/project/fx-crash-sig/"
         },
+
         {
             "name": "workbench-bridges",
             "status": "unmaintained",
@@ -665,6 +679,7 @@
             },
             "source": "https://pypi.org/project/workbench-bridges/"
         },
+
         {
             "name": "apify-shared",
             "status": "archived",
@@ -678,6 +693,7 @@
             },
             "source": "https://pypi.org/project/apify-shared/"
         },
+
         {
             "name": "poetryup",
             "status": "unmaintained",
@@ -691,6 +707,7 @@
             },
             "source": "https://pypi.org/project/poetryup/"
         },
+
         {
             "name": "azure-cognitiveservices-vision-contentmoderator",
             "status": "deprecated",
@@ -704,6 +721,7 @@
             },
             "source": "https://pypi.org/project/azure-cognitiveservices-vision-contentmoderator/"
         },
+
         {
             "name": "dask-lightgbm",
             "status": "unmaintained",
@@ -717,6 +735,7 @@
             },
             "source": "https://pypi.org/project/dask-lightgbm/"
         },
+
         {
             "name": "llama-index-llms-text-generation-inference",
             "status": "deprecated",
@@ -730,6 +749,7 @@
             },
             "source": "https://pypi.org/project/llama-index-llms-text-generation-inference/"
         },
+
         {
             "name": "galileo-observe",
             "status": "archived",
@@ -743,6 +763,7 @@
             },
             "source": "https://pypi.org/project/galileo-observe/"
         },
+
         {
             "name": "retworkx",
             "status": "renamed",
@@ -773,6 +794,7 @@
 
             "source": "https://pypi.org/project/pysnmp-lextudio/"
         },
+
         {
             "name": "synq-ai",
             "status": "renamed",
@@ -789,6 +811,7 @@
 
             "source": "https://pypi.org/project/synq-ai/"
         },
+
         {
             "name": "arcade-ai",
             "status": "renamed",
@@ -805,6 +828,7 @@
 
             "source": "https://pypi.org/project/arcade-ai/"
         },
+
         {
             "name": "immich",
             "status": "renamed",
@@ -821,6 +845,7 @@
 
             "source": "https://pypi.org/project/immich/"
         },
+
         {
             "name": "uk-company-number",
             "status": "unmaintained",
@@ -837,6 +862,7 @@
 
             "source": "https://pypi.org/project/uk-company-number/"
         },
+
         {
             "name": "absurd",
             "status": "unmaintained",
@@ -853,6 +879,7 @@
 
             "source": "https://pypi.org/project/absurd/"
         },
+
         {
             "name": "discord-disnake",
             "status": "deprecated",
@@ -869,6 +896,7 @@
 
             "source": "https://pypi.org/project/discord-disnake/"
         },
+
         {
             "name": "picovoicedemo",
             "status": "unmaintained",
@@ -899,6 +927,7 @@
             },
             "source": "https://pypi.org/project/rsa/"
         },
+
         {
             "name": "ossindex-lib",
             "status": "archived",
@@ -912,6 +941,7 @@
             },
             "source": "https://pypi.org/project/ossindex-lib/"
         },
+
         {
             "name": "akoma2md",
             "status": "renamed",
@@ -925,6 +955,7 @@
             },
             "source": "https://pypi.org/project/akoma2md/"
         },
+
         {
             "name": "project-nebula",
             "status": "deprecated",
@@ -938,6 +969,7 @@
             },
             "source": "https://pypi.org/project/project-nebula/"
         },
+
         {
             "name": "POP-guotai",
             "status": "archived",
@@ -951,6 +983,7 @@
             },
             "source": "https://pypi.org/project/POP-guotai/"
         },
+
         {
             "name": "monero-python",
             "status": "renamed",
@@ -964,6 +997,7 @@
             },
             "source": "https://pypi.org/project/monero-python/"
         },
+
         {
             "name": "python-imagesearch-drov0",
             "status": "deprecated",
@@ -977,6 +1011,7 @@
             },
             "source": "https://pypi.org/project/python-imagesearch-drov0/"
         },
+
         {
             "name": "headerexposer",
             "status": "archived",
@@ -990,6 +1025,7 @@
             },
             "source": "https://pypi.org/project/headerexposer/"
         },
+
         {
             "name": "castorapi",
             "status": "archived",
@@ -1003,6 +1039,7 @@
             },
             "source": "https://pypi.org/project/castorapi/"
         },
+
         {
             "name": "transmission-unlinked",
             "status": "archived",
@@ -1030,6 +1067,7 @@
             },
             "source": "https://pypi.org/project/PythonCoordinates/"
         },
+
         {
             "name": "velarium",
             "status": "archived",
@@ -1043,6 +1081,7 @@
             },
             "source": "https://pypi.org/project/velarium/"
         },
+
         {
             "name": "CrawlerCodePythonTools-WebBot",
             "status": "archived",
@@ -1056,6 +1095,7 @@
             },
             "source": "https://pypi.org/project/CrawlerCodePythonTools-WebBot/"
         },
+
         {
             "name": "CrawlerCodePythonTools",
             "status": "archived",
@@ -1069,6 +1109,7 @@
             },
             "source": "https://pypi.org/project/CrawlerCodePythonTools/"
         },
+
         {
             "name": "pymeasurable-objects",
             "status": "archived",
@@ -1082,6 +1123,7 @@
             },
             "source": "https://pypi.org/project/pymeasurable-objects/"
         },
+
         {
             "name": "velotype",
             "status": "archived",
@@ -1095,6 +1137,7 @@
             },
             "source": "https://pypi.org/project/velotype/"
         },
+
         {
             "name": "granitus",
             "status": "archived",
@@ -1108,6 +1151,7 @@
             },
             "source": "https://pypi.org/project/granitus/"
         },
+
         {
             "name": "pybatts-mathematics",
             "status": "archived",
@@ -1121,6 +1165,7 @@
             },
             "source": "https://pypi.org/project/pybatts-mathematics/"
         },
+
         {
             "name": "pycoordinate-base",
             "status": "archived",
@@ -1134,6 +1179,7 @@
             },
             "source": "https://pypi.org/project/pycoordinate-base/"
         },
+
         {
             "name": "pyGeospatial",
             "status": "archived",
@@ -1161,6 +1207,7 @@
             },
             "source": "https://pypi.org/project/pipelantic/"
         },
+
         {
             "name": "pipelantic-sql",
             "status": "archived",
@@ -1174,6 +1221,7 @@
             },
             "source": "https://pypi.org/project/pipelantic-sql/"
         },
+
         {
             "name": "pipelantic-polars",
             "status": "archived",
@@ -1187,6 +1235,7 @@
             },
             "source": "https://pypi.org/project/pipelantic-polars/"
         },
+
         {
             "name": "pipelantic-pandas",
             "status": "archived",
@@ -1200,6 +1249,7 @@
             },
             "source": "https://pypi.org/project/pipelantic-pandas/"
         },
+
         {
             "name": "typra",
             "status": "archived",
@@ -1213,6 +1263,7 @@
             },
             "source": "https://pypi.org/project/typra/"
         },
+
         {
             "name": "planframe",
             "status": "archived",
@@ -1226,6 +1277,7 @@
             },
             "source": "https://pypi.org/project/planframe/"
         },
+
         {
             "name": "planframe-pandas",
             "status": "archived",
@@ -1239,6 +1291,7 @@
             },
             "source": "https://pypi.org/project/planframe-pandas/"
         },
+
         {
             "name": "planframe-polars",
             "status": "archived",
@@ -1252,6 +1305,7 @@
             },
             "source": "https://pypi.org/project/planframe-polars/"
         },
+
         {
             "name": "planframe-sparkless",
             "status": "archived",
@@ -1265,6 +1319,7 @@
             },
             "source": "https://pypi.org/project/planframe-sparkless/"
         },
+
         {
             "name": "viperis",
             "status": "archived",
@@ -1278,6 +1333,7 @@
             },
             "source": "https://pypi.org/project/viperis/"
         },
+
         {
             "name": "velocus",
             "status": "archived",
@@ -1291,6 +1347,7 @@
             },
             "source": "https://pypi.org/project/velocus/"
         },
+
         {
             "name": "morphra",
             "status": "archived",
@@ -1304,6 +1361,7 @@
             },
             "source": "https://pypi.org/project/morphra/"
         },
+
         {
             "name": "stubber",
             "status": "archived",
@@ -1317,6 +1375,7 @@
             },
             "source": "https://pypi.org/project/stubber/"
         },
+
         {
             "name": "pytest-rxdist",
             "status": "archived",
@@ -1330,6 +1389,7 @@
             },
             "source": "https://pypi.org/project/pytest-rxdist/"
         },
+
         {
             "name": "robin-sparkless",
             "status": "archived",
@@ -1343,6 +1403,7 @@
             },
             "source": "https://pypi.org/project/robin-sparkless/"
         },
+
         {
             "name": "robin-pkg",
             "status": "archived",
@@ -1356,6 +1417,7 @@
             },
             "source": "https://pypi.org/project/robin-pkg/"
         },
+
         {
             "name": "sparkless-testing",
             "status": "archived",
@@ -1369,6 +1431,7 @@
             },
             "source": "https://pypi.org/project/sparkless-testing/"
         },
+
         {
             "name": "mock-spark",
             "status": "archived",
@@ -1382,6 +1445,7 @@
             },
             "source": "https://pypi.org/project/mock-spark/"
         },
+
         {
             "name": "aiocsv-utils",
             "status": "archived",
@@ -1395,6 +1459,7 @@
             },
             "source": "https://pypi.org/project/aiocsv-utils/"
         },
+
         {
             "name": "fullmetal-utils",
             "status": "archived",
@@ -1422,6 +1487,7 @@
             },
             "source": "https://pypi.org/project/rail-score/"
         },
+
         {
             "name": "pysteer-adaptation",
             "status": "archived",
@@ -1435,6 +1501,7 @@
             },
             "source": "https://pypi.org/project/pysteer-adaptation/"
         },
+
         {
             "name": "labMTsimple",
             "status": "archived",
@@ -1448,6 +1515,7 @@
             },
             "source": "https://pypi.org/project/labMTsimple/"
         },
+
         {
             "name": "weights-bias-haystack",
             "status": "archived",
@@ -1461,6 +1529,7 @@
             },
             "source": "https://pypi.org/project/weights-bias-haystack/"
         },
+
         {
             "name": "tdl",
             "status": "archived",
@@ -1474,6 +1543,7 @@
             },
             "source": "https://pypi.org/project/tdl/"
         },
+
         {
             "name": "mondobrain",
             "status": "unmaintained",
@@ -1501,6 +1571,7 @@
             },
             "source": "https://pypi.org/project/gsheetsdb/"
         },
+
         {
             "name": "readline",
             "status": "deprecated",
@@ -1514,6 +1585,7 @@
             },
             "source": "https://pypi.org/project/readline/"
         },
+
         {
             "name": "debabelizer",
             "status": "unmaintained",
@@ -1527,6 +1599,7 @@
             },
             "source": "https://pypi.org/project/debabelizer/"
         },
+
         {
             "name": "clangir",
             "status": "renamed",
@@ -1540,6 +1613,7 @@
             },
             "source": "https://pypi.org/project/clangir/"
         },
+
         {
             "name": "llm-claude-3",
             "status": "renamed",
@@ -1553,6 +1627,7 @@
             },
             "source": "https://pypi.org/project/llm-claude-3/"
         },
+
         {
             "name": "flexpass",
             "status": "archived",
@@ -1580,6 +1655,7 @@
             },
             "source": "https://pypi.org/project/bleach/"
         },
+
         {
             "name": "garth",
             "status": "unmaintained",
@@ -1593,6 +1669,7 @@
             },
             "source": "https://pypi.org/project/garth/"
         },
+
         {
             "name": "neura-library",
             "status": "archived",
@@ -1606,6 +1683,7 @@
             },
             "source": "https://pypi.org/project/neura-library/"
         },
+
         {
             "name": "pycea",
             "status": "archived",
@@ -1619,6 +1697,7 @@
             },
             "source": "https://pypi.org/project/pycea/"
         },
+
         {
             "name": "mvent",
             "status": "archived",
@@ -1632,6 +1711,7 @@
             },
             "source": "https://pypi.org/project/mvent/"
         },
+
         {
             "name": "python-openid",
             "status": "archived",
@@ -1645,6 +1725,7 @@
             },
             "source": "https://pypi.org/project/python-openid/"
         },
+
         {
             "name": "python-qbo",
             "status": "archived",
@@ -1658,6 +1739,7 @@
             },
             "source": "https://pypi.org/project/python-qbo/"
         },
+
         {
             "name": "pydatavolley",
             "status": "archived",
@@ -1671,6 +1753,7 @@
             },
             "source": "https://pypi.org/project/pydatavolley/"
         },
+
         {
             "name": "z3c.datagenerator",
             "status": "archived",
@@ -1698,6 +1781,7 @@
             },
             "source": "https://pypi.org/project/pvoctopus/"
         },
+
         {
             "name": "pvoctopusdemo",
             "status": "archived",
@@ -1711,6 +1795,7 @@
             },
             "source": "https://pypi.org/project/pvoctopusdemo/"
         },
+
         {
             "name": "pvrespeakerdemo",
             "status": "archived",
@@ -1724,6 +1809,7 @@
             },
             "source": "https://pypi.org/project/pvrespeakerdemo/"
         },
+
         {
             "name": "ppnrespeakerdemo",
             "status": "archived",
@@ -1737,6 +1823,7 @@
             },
             "source": "https://pypi.org/project/ppnrespeakerdemo/"
         },
+
         {
             "name": "catalogkit",
             "status": "archived",
@@ -1750,6 +1837,7 @@
             },
             "source": "https://pypi.org/project/catalogkit/"
         },
+
         {
             "name": "catrxneng",
             "status": "archived",
@@ -1763,6 +1851,7 @@
             },
             "source": "https://pypi.org/project/catrxneng/"
         },
+
         {
             "name": "project-guides",
             "status": "renamed",
@@ -1790,6 +1879,7 @@
             },
             "source": "https://pypi.org/project/bbcli/"
         },
+
         {
             "name": "iflow-mcp-mcp-tinybird",
             "status": "unmaintained",
@@ -1803,6 +1893,7 @@
             },
             "source": "https://pypi.org/project/iflow-mcp-mcp-tinybird/"
         },
+
         {
             "name": "zephyrion",
             "status": "unmaintained",
@@ -1816,6 +1907,7 @@
             },
             "source": "https://pypi.org/project/zephyrion/"
         },
+
         {
             "name": "ask-human-now",
             "status": "renamed",
@@ -1843,6 +1935,7 @@
             },
             "source": "https://pypi.org/project/transformation-algebra/"
         },
+
         {
             "name": "cmip-ref-metrics-esmvaltool",
             "status": "renamed",
@@ -1856,6 +1949,7 @@
             },
             "source": "https://pypi.org/project/cmip-ref-metrics-esmvaltool/"
         },
+
         {
             "name": "cmip-ref-metrics-ilamb",
             "status": "renamed",
@@ -1883,6 +1977,7 @@
             },
             "source": "https://pypi.org/project/azure-cognitiveservices-language-spellcheck/"
         },
+
         {
             "name": "azure-cognitiveservices-vision-customvision",
             "status": "archived",
@@ -1896,6 +1991,7 @@
             },
             "source": "https://pypi.org/project/azure-cognitiveservices-vision-customvision/"
         },
+
         {
             "name": "azure-iot-modelsrepository",
             "status": "archived",
@@ -1909,6 +2005,7 @@
             },
             "source": "https://pypi.org/project/azure-iot-modelsrepository/"
         },
+
         {
             "name": "azure-mgmt-appplatform",
             "status": "deprecated",
@@ -1922,6 +2019,7 @@
             },
             "source": "https://pypi.org/project/azure-mgmt-appplatform/"
         },
+
         {
             "name": "azure-cognitiveservices-vision-computervision",
             "status": "archived",
@@ -1935,6 +2033,7 @@
             },
             "source": "https://pypi.org/project/azure-cognitiveservices-vision-computervision/"
         },
+
         {
             "name": "passage-identity",
             "status": "archived",
@@ -1948,6 +2047,7 @@
             },
             "source": "https://pypi.org/project/passage-identity/"
         },
+
         {
             "name": "dd-azure-worker-extension",
             "status": "archived",
@@ -1961,6 +2061,7 @@
             },
             "source": "https://pypi.org/project/dd-azure-worker-extension/"
         },
+
         {
             "name": "django-form-error-reporting",
             "status": "unmaintained",
@@ -1988,6 +2089,7 @@
             },
             "source": "https://pypi.org/project/azure-ai-generative/"
         },
+
         {
             "name": "azure-synapse",
             "status": "archived",
@@ -2001,6 +2103,7 @@
             },
             "source": "https://pypi.org/project/azure-synapse/"
         },
+
         {
             "name": "azure-loganalytics",
             "status": "archived",
@@ -2027,6 +2130,105 @@
                 "en": "azure-media-videoanalyzer-edge"
             },
             "source": "https://pypi.org/project/azure-media-analytics-edge/"
+        },
+
+
+        {
+            "name": "amundsen-common",
+            "status": "archived",
+            "reason": {
+                "fr": "Le 11 septembre 2026, le dépôt officiel d'Amundsen Common a été archivé et placé en lecture seule. Le projet a migré vers le dépôt principal Amundsen et l'ancien dépôt n'accepte plus de contributions.",
+                "en": "On September 11, 2026, the official Amundsen Common repository was archived and made read-only. The project moved to the main Amundsen repository, and the former repository no longer accepts contributions."
+            },
+            "replacement": {
+                "fr": "Amundsen, dépôt principal (répertoire common)",
+                "en": "Amundsen main repository (common directory)"
+            },
+            "source": "https://github.com/amundsen-io/amundsencommon"
+        },
+
+        {
+            "name": "amundsen-search",
+            "status": "archived",
+            "reason": {
+                "fr": "Le 11 septembre 2026, le dépôt officiel d'Amundsen Search a été archivé et placé en lecture seule après la migration vers le dépôt principal Amundsen. L'ancien dépôt n'accepte plus de contributions.",
+                "en": "On September 11, 2026, the official Amundsen Search repository was archived and made read-only following migration to the main Amundsen repository. The former repository no longer accepts contributions."
+            },
+            "replacement": {
+                "fr": "Amundsen, dépôt principal (répertoire search)",
+                "en": "Amundsen main repository (search directory)"
+            },
+            "source": "https://github.com/amundsen-io/amundsensearchlibrary"
+        },
+
+        {
+            "name": "amundsen-metadata",
+            "status": "archived",
+            "reason": {
+                "fr": "Le 11 septembre 2026, le dépôt officiel d'Amundsen Metadata a été archivé et placé en lecture seule après la migration vers le dépôt principal Amundsen. L'ancien dépôt n'accepte plus de contributions.",
+                "en": "On September 11, 2026, the official Amundsen Metadata repository was archived and made read-only following migration to the main Amundsen repository. The former repository no longer accepts contributions."
+            },
+            "replacement": {
+                "fr": "Amundsen, dépôt principal (répertoire metadata)",
+                "en": "Amundsen main repository (metadata directory)"
+            },
+            "source": "https://github.com/amundsen-io/amundsenmetadatalibrary"
+        },
+
+        {
+            "name": "opentelemetry-exporter-gcp-monitoring",
+            "status": "deprecated",
+            "reason": {
+                "fr": "En octobre 2026, Google a annoncé la dépréciation de ses exportateurs OpenTelemetry Python, avec un archivage du dépôt prévu le 30 octobre. L'exportateur Cloud Monitoring doit être remplacé par une intégration utilisant le protocole OTLP standard.",
+                "en": "In October 2026, Google announced the deprecation of its Python OpenTelemetry exporters, with repository archival scheduled for October 30. The Cloud Monitoring exporter should be replaced with a standard OTLP-based integration."
+            },
+            "replacement": {
+                "fr": "Exportateur OTLP standard OpenTelemetry",
+                "en": "Standard OpenTelemetry OTLP exporter"
+            },
+            "source": "https://github.com/GoogleCloudPlatform/opentelemetry-operations-python"
+        },
+
+        {
+            "name": "opentelemetry-exporter-gcp-trace",
+            "status": "deprecated",
+            "reason": {
+                "fr": "En octobre 2026, Google a annoncé la dépréciation de ses exportateurs OpenTelemetry Python, avec un archivage du dépôt prévu le 30 octobre. L'exportateur Cloud Trace doit être remplacé par une intégration utilisant le protocole OTLP standard.",
+                "en": "In October 2026, Google announced the deprecation of its Python OpenTelemetry exporters, with repository archival scheduled for October 30. The Cloud Trace exporter should be replaced with a standard OTLP-based integration."
+            },
+            "replacement": {
+                "fr": "Exportateur OTLP standard OpenTelemetry",
+                "en": "Standard OpenTelemetry OTLP exporter"
+            },
+            "source": "https://github.com/GoogleCloudPlatform/opentelemetry-operations-python"
+        },
+
+        {
+            "name": "opentelemetry-exporter-gcp-logging",
+            "status": "deprecated",
+            "reason": {
+                "fr": "En octobre 2026, Google a annoncé la dépréciation de ses exportateurs OpenTelemetry Python, avec un archivage du dépôt prévu le 30 octobre. L'exportateur Cloud Logging doit être remplacé par une intégration utilisant le protocole OTLP standard.",
+                "en": "In October 2026, Google announced the deprecation of its Python OpenTelemetry exporters, with repository archival scheduled for October 30. The Cloud Logging exporter should be replaced with a standard OTLP-based integration."
+            },
+            "replacement": {
+                "fr": "Exportateur OTLP standard OpenTelemetry",
+                "en": "Standard OpenTelemetry OTLP exporter"
+            },
+            "source": "https://github.com/GoogleCloudPlatform/opentelemetry-operations-python"
+        },
+
+        {
+            "name": "torch-xla",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le projet PyTorch/XLA est officiellement déprécié au profit de TorchTPU. Ses mainteneurs ont annoncé l'archivage du dépôt au 15 novembre 2026 et recommandent de migrer les charges de travail TPU existantes vers TorchTPU.",
+                "en": "PyTorch/XLA is officially deprecated in favor of TorchTPU. Its maintainers announced repository archival for November 15, 2026, and recommend migrating existing TPU workloads to TorchTPU."
+            },
+            "replacement": {
+                "fr": "TorchTPU",
+                "en": "TorchTPU"
+            },
+            "source": "https://github.com/pytorch/xla"
         }
 
     ]
