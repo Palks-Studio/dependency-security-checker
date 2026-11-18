@@ -523,6 +523,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=awwsky.csharpfixformatfixed"
         },
+
         {
             "id": "EdwinKofler.vscode-panda-utils",
             "status": "deprecated",
@@ -536,6 +537,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-panda-utils"
         },
+
         {
             "id": "itmcdev.swagger-extension-pack",
             "status": "deprecated",
@@ -549,6 +551,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=itmcdev.swagger-extension-pack"
         },
+
         {
             "id": "MinovativeTechnologies.minovative-mind-vscode",
             "status": "deprecated",
@@ -562,6 +565,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=MinovativeTechnologies.minovative-mind-vscode"
         },
+
         {
             "id": "WSO2.wso2-platform",
             "status": "deprecated",
@@ -575,6 +579,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=WSO2.wso2-platform"
         },
+
         {
             "id": "WSO2.ballerina-integrator",
             "status": "deprecated",
@@ -588,6 +593,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina-integrator"
         },
+
         {
             "id": "donjayamanne.javadebugger",
             "status": "unmaintained",
@@ -601,6 +607,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=donjayamanne.javadebugger"
         },
+
         {
             "id": "danields761.status-bar-breadcrumb",
             "status": "unmaintained",
@@ -614,6 +621,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=danields761.status-bar-breadcrumb"
         },
+
         {
             "id": "doublefint.vscode-cos",
             "status": "deprecated",
@@ -627,6 +635,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=doublefint.vscode-cos"
         },
+
         {
             "id": "novo-studio.xeto-extension",
             "status": "unmaintained",
@@ -640,6 +649,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=novo-studio.xeto-extension"
         },
+
         {
             "id": "Pasu4.neuropilot",
             "status": "deprecated",
@@ -653,6 +663,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=Pasu4.neuropilot"
         },
+
         {
             "id": "sswg.swift-lang",
             "status": "deprecated",
@@ -666,6 +677,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang"
         },
+
         {
             "id": "dyno-nguyen.vscode-dynofileutils",
             "status": "unmaintained",
@@ -679,6 +691,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=dyno-nguyen.vscode-dynofileutils"
         },
+
         {
             "id": "donjayamanne.jupyterpowertools",
             "status": "unmaintained",
@@ -692,6 +705,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=donjayamanne.jupyterpowertools"
         },
+
         {
             "id": "CADENAS.vscode-glsllint",
             "status": "deprecated",
@@ -705,6 +719,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=CADENAS.vscode-glsllint"
         },
+
         {
             "id": "surranov.nested-open-editors",
             "status": "unmaintained",
@@ -718,6 +733,7 @@
             },
             "source": "https://marketplace.visualstudio.com/items?itemName=surranov.nested-open-editors"
         },
+
         {
             "id": "bitwisecook.iapp",
             "status": "unmaintained",
@@ -1496,6 +1512,7 @@
 
             "source": "https://marketplace.visualstudio.com/items?itemName=Azevedo-Software.claude-config-manager"
         },
+
         {
             "id": "cedros-development.winnetoujs-vscode-framework",
             "status": "deprecated",
@@ -1512,6 +1529,7 @@
 
             "source": "https://marketplace.visualstudio.com/items?itemName=cedros-development.winnetoujs-vscode-framework"
         },
+
         {
             "id": "vomout.latex-workshop-sanity",
             "status": "unmaintained",
@@ -1528,6 +1546,7 @@
 
             "source": "https://marketplace.visualstudio.com/items?itemName=vomout.latex-workshop-sanity"
         },
+
         {
             "id": "SatoshiYamamoto.vscode-date-time-calendar",
             "status": "deprecated",
@@ -1544,6 +1563,7 @@
 
             "source": "https://marketplace.visualstudio.com/items?itemName=SatoshiYamamoto.vscode-date-time-calendar"
         },
+
         {
             "id": "rkoubou.ksp-v1-preview",
             "status": "deprecated",
@@ -1662,6 +1682,7 @@
 
             "source": "https://github.com/microsoft/vscode-dotnettools/issues/2537"
         },
+
         {
             "id": "VisualStudioExptTeam.vscodeintellicode-completions",
             "status": "deprecated",
@@ -1678,6 +1699,7 @@
 
             "source": "https://github.com/microsoft/vscode-dotnettools/issues/2537"
         },
+
         {
             "id": "Vms-dotnettools.vscodeintellicode-csharp",
             "status": "deprecated",
@@ -1694,6 +1716,7 @@
 
             "source": "https://github.com/microsoft/vscode-dotnettools/issues/2537"
         },
+
         {
             "id": "VisualStudioExptTeam.intellicode-api-usage-examples",
             "status": "deprecated",
@@ -1812,6 +1835,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "felipecrs.vscode-gerrit",
             "status": "deprecated",
@@ -1828,6 +1852,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "KnisterPeter.vscode-github",
             "status": "deprecated",
@@ -1844,6 +1869,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "antfu.vue-i18n-ally",
             "status": "deprecated",
@@ -1860,6 +1886,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "antfu.i18n-ally",
             "status": "deprecated",
@@ -1876,6 +1903,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "HaaLeo.vscode-stylint",
             "status": "deprecated",
@@ -1909,6 +1937,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "TomiTurtiainen.rf-intellisense",
             "status": "deprecated",
@@ -1925,6 +1954,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "keith.robotframework",
             "status": "deprecated",
@@ -1941,6 +1971,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "vivainio.robotframework",
             "status": "deprecated",
@@ -1957,6 +1988,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "JacobPhilip.danfoss-robotframework-debug",
             "status": "deprecated",
@@ -1973,6 +2005,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "kmk-labs.robotf-extension",
             "status": "deprecated",
@@ -1989,6 +2022,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "yokey.robotf-souche-extension",
             "status": "deprecated",
@@ -2005,6 +2039,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "allyusd.robot-framework-helper",
             "status": "deprecated",
@@ -2021,6 +2056,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "robotframeworkbambouna.vscode-rf-bam-formatter",
             "status": "deprecated",
@@ -2071,6 +2107,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "mistralai.mistral-code",
             "status": "deprecated",
@@ -2087,6 +2124,7 @@
 
             "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         },
+
         {
             "id": "ChalkAI.chalk-lsp",
             "status": "deprecated",
@@ -2119,6 +2157,286 @@
             },
 
             "source": "https://marketplace.visualstudio.com/items?itemName=Elrond.vscode-elrond-ide"
+        },
+
+        {
+            "id": "luke-callaghan.wtaniwe-web",
+            "status": "deprecated",
+            "reason": {
+                "fr": "L'extension a été dépréciée après la fusion de ses fonctionnalités avec l'extension principale en octobre 2026.",
+                "en": "The extension was deprecated after its features were merged into the main extension in October 2026."
+            },
+            "replacement": {
+                "fr": "Extension principale WTANIWE",
+                "en": "Main WTANIWE extension"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=luke-callaghan.wtaniwe-web"
+        },
+
+        {
+            "id": "junyou1998.i18n-ally-community",
+            "status": "archived",
+            "reason": {
+                "fr": "L'extension a été archivée en novembre 2026 après l'intégration de ses fonctionnalités à i18n Ally Next.",
+                "en": "The extension was archived in November 2026 after its features were integrated into i18n Ally Next."
+            },
+            "replacement": {
+                "fr": "i18n Ally Next",
+                "en": "i18n Ally Next"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=junyou1998.i18n-ally-community"
+        },
+
+        {
+            "id": "itemcoder.iextlibraries",
+            "status": "deprecated",
+            "reason": {
+                "fr": "L'éditeur a demandé la dépréciation de cette extension le 8 novembre 2026. Ses fonctionnalités sont désormais intégrées à Storm Parity.",
+                "en": "The publisher requested deprecation of this extension on November 8, 2026. Its functionality is now integrated into Storm Parity."
+            },
+            "replacement": {
+                "fr": "itemcoder.storm-parity",
+                "en": "itemcoder.storm-parity"
+            },
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+
+        {
+            "id": "xnervwang.claude-code-extras",
+            "status": "renamed",
+            "reason": {
+                "fr": "L'éditeur a demandé la dépréciation de cette ancienne extension le 11 novembre 2026 après son remplacement par Claude Code Plus.",
+                "en": "The publisher requested deprecation of this legacy extension on November 11, 2026 following its replacement by Claude Code Plus."
+            },
+            "replacement": {
+                "fr": "xnervwang.claude-code-plus",
+                "en": "xnervwang.claude-code-plus"
+            },
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+
+        {
+            "id": "ayan-memon.antigravity-pulse-monitor",
+            "status": "deprecated",
+            "reason": {
+                "fr": "L'éditeur annonce la dépréciation de l'extension en novembre 2026, le suivi des quotas étant désormais intégré nativement à Google Antigravity.",
+                "en": "The publisher announces the extension's deprecation in November 2026 because quota tracking is now built into Google Antigravity."
+            },
+            "replacement": {
+                "fr": "Suivi des quotas intégré à Google Antigravity",
+                "en": "Built-in quota tracking in Google Antigravity"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=ayan-memon.antigravity-pulse-monitor"
+        },
+
+        {
+            "id": "rstack.rstest",
+            "status": "deprecated",
+            "reason": {
+                "fr": "L'éditeur demande la dépréciation de RSTest au profit de l'extension RStack.",
+                "en": "The publisher requests deprecation of RSTest in favor of the RStack extension."
+            },
+            "replacement": {
+                "fr": "rstack.rstack",
+                "en": "rstack.rstack"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=rstack.rstest"
+        },
+
+        {
+            "id": "rstack.rslint",
+            "status": "deprecated",
+            "reason": {
+                "fr": "L'éditeur demande la dépréciation de RSLint au profit de l'extension RStack.",
+                "en": "The publisher requests deprecation of RSLint in favor of the RStack extension."
+            },
+            "replacement": {
+                "fr": "rstack.rstack",
+                "en": "rstack.rstack"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=rstack.rslint"
+        },
+
+        {
+            "id": "ways-agency.shopify-liquid-snippets",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "L'extension n'est plus maintenue et ses fonctionnalités sont désormais couvertes par Shopify Liquid.",
+                "en": "The extension is no longer maintained and its features are now covered by Shopify Liquid."
+            },
+            "replacement": {
+                "fr": "Shopify.theme-check-vscode",
+                "en": "Shopify.theme-check-vscode"
+            },
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+
+        {
+            "id": "Fering.qsp",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le développement a été transféré vers l'extension officielle QSP Language Server. L'ancienne extension ne recevra plus de mises à jour.",
+                "en": "Development has moved to the official QSP Language Server extension. The old extension will receive no further updates."
+            },
+            "replacement": {
+                "fr": "QSPFoundation.qsp-lsp",
+                "en": "QSPFoundation.qsp-lsp"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=Fering.qsp"
+        },
+
+        {
+            "id": "QSPFoundation.qsp-official",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Cette ancienne extension QSP a été remplacée par QSP Language Server et ne recevra plus de mises à jour.",
+                "en": "This legacy QSP extension has been replaced by QSP Language Server and will receive no further updates."
+            },
+            "replacement": {
+                "fr": "QSPFoundation.qsp-lsp",
+                "en": "QSPFoundation.qsp-lsp"
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=QSPFoundation.qsp-official"
+        },
+
+        {
+            "id": "lucono.karma-test-explorer",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Le mainteneur confirme que l'extension n'est plus maintenue et demande sa dépréciation. Aucun remplacement direct n'est recommandé.",
+                "en": "The maintainer confirms that the extension is no longer maintained and requests its deprecation. No direct replacement is recommended."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://marketplace.visualstudio.com/items?itemName=lucono.karma-test-explorer"
+        },
+
+        {
+            "id": "EthanTrithon.srcery-vscode",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Les mainteneurs officiels du thème Srcery signalent que cette version non officielle est obsolète et demandent sa dépréciation.",
+                "en": "The official Srcery theme maintainers report that this unofficial version is outdated and request its deprecation."
+            },
+            "replacement": {
+                "fr": "Version officielle du thème Srcery",
+                "en": "Official Srcery theme extension"
+            },
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+
+        {
+            "id": "gagbo.srcery",
+            "status": "unmaintained",
+            "reason": {
+                "fr": "Les mainteneurs officiels du thème Srcery signalent que cette version non officielle est obsolète et demandent sa dépréciation.",
+                "en": "The official Srcery theme maintainers report that this unofficial version is outdated and request its deprecation."
+            },
+            "replacement": {
+                "fr": "Version officielle du thème Srcery",
+                "en": "Official Srcery theme extension"
+            },
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+
+        {
+            "id": "vsciot-vscode.azure-iot-edge",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Un membre de l'équipe responsable des outils Azure IoT Edge a demandé officiellement la dépréciation de cette extension le 16 novembre 2026.",
+                "en": "A member of the Azure IoT Edge Tools team officially requested deprecation of this extension on November 16, 2026."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://github.com/microsoft/vscode-azure-iot-edge"
+        },
+
+        {
+            "id": "roychemo.claude-multi-account",
+            "status": "renamed",
+            "reason": {
+                "fr": "L'éditeur a renommé et republié cette extension sous l'identifiant roychemo.billable et demandé la dépréciation de l'ancienne version le 18 novembre 2026.",
+                "en": "The publisher renamed and republished this extension as roychemo.billable and requested deprecation of the old version on November 18, 2026."
+            },
+            "replacement": {
+                "fr": "roychemo.billable",
+                "en": "roychemo.billable"
+            },
+            "source": "https://github.com/roych28/billable"
+        },
+
+        {
+            "id": "matteopolak.jai-toolchain",
+            "status": "renamed",
+            "reason": {
+                "fr": "Le 18 octobre 2026, l'éditeur a demandé la dépréciation de Jai Toolchain après le changement de nom du projet en Jacket. La nouvelle extension poursuit son développement.",
+                "en": "On October 18, 2026, the publisher requested deprecation of Jai Toolchain following the project's rename to Jacket. Development continues under the new extension."
+            },
+            "replacement": {
+                "fr": "matteopolak.jacket",
+                "en": "matteopolak.jacket"
+            },
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+
+        {
+            "id": "block.vscode-mcp-extension",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le 27 octobre 2026, le propriétaire de l'éditeur Block a demandé la dépréciation de cette extension MCP Server, déjà retirée de la publication. Aucun remplacement n'a été recommandé.",
+                "en": "On October 27, 2026, the Block publisher owner requested deprecation of this MCP Server extension, which had already been unpublished. No replacement was recommended."
+            },
+            "replacement": {
+                "fr": "",
+                "en": ""
+            },
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+
+        {
+            "id": "HZC.KostalCodeProjectDevelopmentPlatform",
+            "status": "deprecated",
+            "reason": {
+                "fr": "Le 2 novembre 2026, l'éditeur a demandé la dépréciation de cette extension après sa migration vers un nouvel identifiant et un nouvel éditeur. La nouvelle extension poursuit sa maintenance.",
+                "en": "On November 2, 2026, the publisher requested deprecation of this extension following migration to a new extension ID and publisher. The replacement remains maintained."
+            },
+            "replacement": {
+                "fr": "Kcodedevelopment.KostalCodeDevelopmentPlatform",
+                "en": "Kcodedevelopment.KostalCodeDevelopmentPlatform"
+            },
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+
+        {
+            "id": "macdara.session-compass",
+            "status": "renamed",
+            "reason": {
+                "fr": "Le 3 novembre 2026, l'éditeur a demandé la dépréciation de Session Compass, renommée Questlog à partir de la version 1.0.0.",
+                "en": "On November 3, 2026, the publisher requested deprecation of Session Compass, renamed Questlog starting with version 1.0.0."
+            },
+            "replacement": {
+                "fr": "macdara.questlog",
+                "en": "macdara.questlog"
+            },
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
+        },
+
+        {
+            "id": "macdara.clear-resume",
+            "status": "renamed",
+            "reason": {
+                "fr": "Le 3 novembre 2026, l'éditeur a demandé la dépréciation de Clear Resume, renommée Cornerman à partir de la version 0.7.0.",
+                "en": "On November 3, 2026, the publisher requested deprecation of Clear Resume, renamed Cornerman starting with version 0.7.0."
+            },
+            "replacement": {
+                "fr": "macdara.cornerman",
+                "en": "macdara.cornerman"
+            },
+            "source": "https://github.com/microsoft/vscode-discussions/discussions/1"
         }
 
     ]
